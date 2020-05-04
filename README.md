@@ -1,4 +1,4 @@
-<img src="//imgur.com/DQOZ7bs" style="margin: 0;">
+<img src="https://photos.app.goo.gl/tndkBXfYd9iKd9Xg7" style="margin: 0;">
 
 Welcome USER_NAME,
 
