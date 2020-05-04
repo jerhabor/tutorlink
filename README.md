@@ -1,4 +1,4 @@
-<img src="https://photos.app.goo.gl/tndkBXfYd9iKd9Xg7" style="margin: 0;">
+<a href='https://photos.google.com/share/AF1QipNYwC_UOe0g5-Wh8O5Z96xJaoNCpzkbiW0g3hXQmXfq8K0Nc3YftIn3s4Zwx0x8pg?key=MEpPZG05bDNINDU2b1hfQ3JQZ1piU0g1Q1JhNnNB&source=ctrlq.org'><img src='https://lh3.googleusercontent.com/996Qfbf4NZVbQoJePg32_mb1_f8Yqyh-hkLCpC7imehg2DuoxQfT_4ARGMeF_VNA81MXMPbHg0v8dpm_renpD9-eaX7bRshfFzuG8Zwnz3HlFAfdUtuQ7jTYf6j_spyLuhv7r7AsdA=w2400' /></a>
 
 Welcome USER_NAME,
 
