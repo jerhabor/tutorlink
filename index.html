@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="icon" href="assets/images/favicon.ico">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<title>TutorLink</title>
+</head>
+
+<body>
+	<!-- Navigation Bar -->
+	<header>
+		<nav class="navbar navbar-expand-sm navbar-light bg-light">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col">
+						<a class="navbar-brand" href="index.html"><img src="assets/images/tutorlink-logo.png" alt="TutorLink logo"/>
+                            </a>
+							<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+                            </button>
+							<div class="collapse navbar-collapse" id="navbarNav">
+								<ul class="navbar-nav ml-auto uppercase">
+									<li class="nav-item mr-2 active">
+										<a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+									</li>
+									<li class="nav-item mr-2">
+										<a class="nav-link" href="#">Tutors</a>
+									</li>
+									<li class="nav-item mr-2">
+										<a class="nav-link m" href="#">Subjects</a>
+									</li>
+									<li class="nav-item mr-2">
+										<a class="nav-link" href="#">Contact</a>
+									</li>
+									<li class="nav-item">
+										<button type="button" class="btn btn-warning uppercase ml-auto d-sm-none d-md-block" data-toggle="modal" data-target="#exampleModal">Sign Up</button>
+									</li>
+								</ul>
+							</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- /Navigation Bar -->
+	<section>
+    <!-- Button trigger modal -->
+		<!-- <div class="container-fluid">
+			<div class="row">
+				<div class="col">
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">Launch static backdrop modal
+                    </button> -->
+    <!-- Modal -->
+					<!-- <div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog"
+						aria-labelledby="staticBackdropLabel" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								</div>
+								<div class="modal-body">
+									<form>
+										<div class="form-row">
+											<div class="form-group col-md-6">
+												<label for="first-name">First Name</label>
+												<input type="name" class="form-control" id="first-name" placeholder="First Name" required>
+  </div>
+												<div class="form-group col-md-6">
+													<label for="surname">Surname</label>
+													<input type="name" class="form-control" id="surname" placeholder="Surname" required>
+  </div>
+												</div>
+												<div class="form-group">
+													<label for="email-address">Email address</label>
+													<input type="email" class="form-control" id="email-address" placeholder="name@example.com" required>
+  </div>
+													<div class="form-group">
+														<label for="subject-selection">Please choose a subject</label>
+														<select class="form-control" id="subject-selection" required>
+      <option>11+ Exams</option>
+      <option>KS2 SATs</option>
+      <option>GCSE Biology</option>
+      <option>GCSE Business Studies</option>
+      <option>GCSE Chemistry</option>
+      <option>GCSE Computer Science</option>
+      <option>GCSE French</option>
+      <option>GCSE German</option>
+      <option>GCSE Mathematics</option>
+      <option>GCSE Physics</option>
+      <option>GCSE Spanish</option>
+      <option>A-Level Biology</option>
+      <option>A-Level Chemistry</option>
+      <option>A-Level Economics</option>
+      <option>A-Level French</option>
+      <option>A-Level German</option>
+      <option>A-Level Mathematics</option>
+      <option>A-Level Physics</option>
+      <option>A-Level Spanish</option>
+    </select>
+													</div>
+									</form>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									<button type="button" class="btn btn-primary">Submit</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> -->
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+		</script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+		</script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+		</script>
+	</section>
+	<footer class="container-fluid">
+		<div class="row">
+			<div class="col-12">
+				<h3>Sign Up Now</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<h5>Follow us</h5>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 social-media">
+				<ul class="list-inline">
+					<li class="list-inline-item"><a href="https://www.facebook.com/"
+							target="_blank"><i class="fa fa-facebook"></i></a></li>
+					<li class="list-inline-item"><a href="https://www.instagram.com/"
+							target="_blank"><i class="fa fa-instagram"></i></a></li>
+					<li class="list-inline-item"><a href="https://www.youtube.com/"
+							target="_blank"><i class="fa fa-youtube"></i></a></li>
+					<li class="list-inline-item"><a href="https://www.twitter.com/"
+							target="_blank"><i class="fa fa-twitter"></i></a></li>
+					<li class="list-inline-item"><a href="https://www.linkedin.com/"
+							target="_blank"><i class="fa fa-linkedin"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
