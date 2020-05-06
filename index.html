@@ -15,96 +15,110 @@
 
 <body>
 	<!-- Navigation Bar -->
-	<header>
-		<nav class="navbar navbar-expand-sm navbar-light bg-light">
-			<div class="container-fluid">
+	<header class="container-fluid">
+		<nav class="navbar navbar-expand-md navbar-light">
 				<div class="row">
 					<div class="col">
-						<a class="navbar-brand" href="index.html"><img src="assets/images/tutorlink-logo.png" alt="TutorLink logo"/>
-                            </a>
-							<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
-                            </button>
-							<div class="collapse navbar-collapse" id="navbarNav">
-								<ul class="navbar-nav ml-auto uppercase">
-									<li class="nav-item mr-2 active">
-										<a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-									</li>
-									<li class="nav-item mr-2">
-										<a class="nav-link" href="#">Tutors</a>
-									</li>
-									<li class="nav-item mr-2">
-										<a class="nav-link m" href="#">Subjects</a>
-									</li>
-									<li class="nav-item mr-2">
-										<a class="nav-link" href="#">Contact</a>
-									</li>
-									<li class="nav-item">
-										<button type="button" class="btn btn-warning uppercase ml-auto d-sm-none d-md-block" data-toggle="modal" data-target="#exampleModal">Sign Up</button>
-									</li>
-								</ul>
-							</div>
+						<a class="navbar-brand" href="index.html"><img class="logo-image" src="assets/images/tutorlink.png" alt="TutorLink logo"/>
+                    </a>
+					</div>
+					<div class="col" id="menu">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+                        </button>
+						<div class="collapse navbar-collapse" id="navbarNav">
+							<ul class="navbar-nav uppercase">
+								<li class="nav-item mr-3 active">
+									<a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
+								</li>
+								<li class="nav-item mr-3">
+									<a class="nav-link" href="#">Tutors</a>
+								</li>
+								<li class="nav-item mr-3">
+									<a class="nav-link m" href="#">Subjects</a>
+								</li>
+								<li class="nav-item mr-3">
+									<a class="nav-link" href="#">Contact</a>
+								</li>
+								<li class="nav-item">
+									<button type="button" class="btn btn-warning uppercase d-sm-none d-md-block" data-toggle="modal" data-target="#exampleModal">Sign Up</button>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
-			</div>
 		</nav>
 	</header>
 	<!-- /Navigation Bar -->
 	<section>
-    <!-- Button trigger modal -->
-		<!-- <div class="container-fluid">
+    <img src="/assets/images/background-photo.jpg" class="bg-header-image" aria-hidden="true"/>
+		<!-- Button trigger modal -->
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col">
-					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">Launch static backdrop modal
-                    </button> -->
-    <!-- Modal -->
-					<!-- <div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog"
+				<div class="col no-gutter">
+                
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">Sign Up Now!
+                    </button>
+					<!-- Modal -->
+					<div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog"
 						aria-labelledby="staticBackdropLabel" aria-hidden="true">
 						<div class="modal-dialog" role="document">
 							<div class="modal-content">
 								<div class="modal-header">
-									<h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+									<h5 class="modal-title" id="staticBackdropLabel">Sign Up!</h5>
 									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 								</div>
 								<div class="modal-body">
 									<form>
 										<div class="form-row">
 											<div class="form-group col-md-6">
-												<label for="first-name">First Name</label>
-												<input type="name" class="form-control" id="first-name" placeholder="First Name" required>
-  </div>
-												<div class="form-group col-md-6">
-													<label for="surname">Surname</label>
-													<input type="name" class="form-control" id="surname" placeholder="Surname" required>
-  </div>
-												</div>
-												<div class="form-group">
-													<label for="email-address">Email address</label>
-													<input type="email" class="form-control" id="email-address" placeholder="name@example.com" required>
-  </div>
-													<div class="form-group">
-														<label for="subject-selection">Please choose a subject</label>
-														<select class="form-control" id="subject-selection" required>
-      <option>11+ Exams</option>
-      <option>KS2 SATs</option>
-      <option>GCSE Biology</option>
-      <option>GCSE Business Studies</option>
-      <option>GCSE Chemistry</option>
-      <option>GCSE Computer Science</option>
-      <option>GCSE French</option>
-      <option>GCSE German</option>
-      <option>GCSE Mathematics</option>
-      <option>GCSE Physics</option>
-      <option>GCSE Spanish</option>
-      <option>A-Level Biology</option>
-      <option>A-Level Chemistry</option>
-      <option>A-Level Economics</option>
-      <option>A-Level French</option>
-      <option>A-Level German</option>
-      <option>A-Level Mathematics</option>
-      <option>A-Level Physics</option>
-      <option>A-Level Spanish</option>
-    </select>
-													</div>
+												<label for="fname">First Name</label>
+												<input type="name" class="form-control" id="fname" placeholder="First Name" required>
+                                            </div>
+											<div class="form-group col-md-6">
+												<label for="lname">Last Name</label>
+												<input type="name" class="form-control" id="lname" placeholder="Last Name" required>
+                                            </div>
+									    </div>
+										<div class="form-group">
+												<label for="email-address">Email address</label>
+												<input type="email" class="form-control" id="email-address" placeholder="name@example.com" required>
+                                        </div>
+										<div class="form-group">
+												<label for="subject-selection">Please choose a subject:</label>
+												<select class="form-control" id="subject-selection" required>
+                                                    <optgroup label="11 PLUS">
+                                                    <option>11+ Mathematics</option>
+                                                    <option>11+ English</option>
+                                                    <option>11+ Verbal Reasoning</option>
+                                                    <option>11+ Non-Verbal Reasoning</option>
+                                                    </optgroup>
+                                                    <optgroup label="KS2 SATs">
+                                                    <option>KS2 Mathematics</option>
+                                                    <option>KS2 English</option>
+                                                    </optgroup>
+                                                    <optgroup label="GCSE">
+                                                    <option>GCSE Biology</option>
+                                                    <option>GCSE Business Studies</option>
+                                                    <option>GCSE Chemistry</option>
+                                                    <option>GCSE Computer Science</option>
+                                                    <option>GCSE French</option>
+                                                    <option>GCSE German</option>
+                                                    <option>GCSE Mathematics</option>
+                                                    <option>GCSE Physics</option>
+                                                    <option>GCSE Spanish</option>
+                                                    </optgroup>
+                                                    <optgroup label="A-LEVEL">
+                                                    <option>A-Level Biology</option>
+                                                    <option>A-Level Chemistry</option>
+                                                    <option>A-Level Economics</option>
+                                                    <option>A-Level French</option>
+                                                    <option>A-Level German</option>
+                                                    <option>A-Level Mathematics</option>
+                                                    <option>A-Level Physics</option>
+                                                    <option>A-Level Spanish</option>
+                                                    </optgroup>
+                                                </select>
+										</div>
 									</form>
 								</div>
 								<div class="modal-footer">
@@ -116,7 +130,7 @@
 					</div>
 				</div>
 			</div>
-		</div> -->
+		</div>
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
 		</script>
@@ -127,14 +141,16 @@
 			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
 		</script>
 	</section>
+
 	<footer class="container-fluid">
 		<div class="row">
 			<div class="col-12">
-				<h3>Sign Up Now</h3>
+				<button type="button" class="btn btn-primary sign-up-btn uppercase" data-toggle="modal" data-target="#staticBackdrop">Sign Up Now!
+                    </button>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-12">
+			<div class="col-12 uppercase">
 				<h5>Follow us</h5>
 			</div>
 		</div>
