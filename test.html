@@ -9,18 +9,20 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css" />
-	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/style.css" />
 	<title>Tutorlink</title>
 </head>
 
 <body>
 
 	<!-- Navigation -->
-	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<nav class="navbar navbar-expand-md navbar-light sticky-top">
 		<div class="container-fluid">
 			<a href="#" class="navbar-brand"><img src="assets/images/tutorlink-logo.png" alt="TutorLink Logo"/></a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
-                </button>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item active">
@@ -36,13 +38,87 @@
 							<a class="nav-link mr-3 uppercase" href="/">Contact</a>
 						</li>
 						<li class="nav-item">
-							<button type="button" class="btn btn-warning uppercase" data-toggle="modal" data-target="#exampleModal">Sign Up</button>
+							<button type="button" class="btn btn-warning uppercase" data-toggle="modal" data-target="#signup">Sign Up</button>
 						</li>
 					</ul>
 				</div>
 		</div>
 	</nav>
 	<!-- /Navigation -->
+
+	<!-- Modal Form -->
+
+	<div class="modal fade" id="signup" data-backdrop="static" tabindex="-1" role="dialog"
+		aria-labelledby="staticBackdropLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="staticBackdropLabel">Sign Up!</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-row">
+							<div class="form-group col-md-6">
+								<label for="fname">First Name</label>
+								<input type="name" class="form-control" id="fname" placeholder="First Name" required>
+                                            </div>
+								<div class="form-group col-md-6">
+									<label for="lname">Last Name</label>
+									<input type="name" class="form-control" id="lname" placeholder="Last Name" required>
+                                            </div>
+								</div>
+								<div class="form-group">
+									<label for="email-address">Email address</label>
+									<input type="email" class="form-control" id="email-address" placeholder="name@example.com" required>
+                                </div>
+								<div class="form-group">
+										<label for="subject-selection">Please choose a subject:</label>
+										<select class="form-control" id="subject-selection" required>
+                                                    <optgroup label="11 PLUS">
+                                                    <option>11+ Mathematics</option>
+                                                    <option>11+ English</option>
+                                                    <option>11+ Verbal Reasoning</option>
+                                                    <option>11+ Non-Verbal Reasoning</option>
+                                                    </optgroup>
+                                                    <optgroup label="KS2 SATs">
+                                                    <option>KS2 Mathematics</option>
+                                                    <option>KS2 English</option>
+                                                    </optgroup>
+                                                    <optgroup label="GCSE">
+                                                    <option>GCSE Biology</option>
+                                                    <option>GCSE Business Studies</option>
+                                                    <option>GCSE Chemistry</option>
+                                                    <option>GCSE Computer Science</option>
+                                                    <option>GCSE French</option>
+                                                    <option>GCSE German</option>
+                                                    <option>GCSE Mathematics</option>
+                                                    <option>GCSE Physics</option>
+                                                    <option>GCSE Spanish</option>
+                                                    </optgroup>
+                                                    <optgroup label="A-LEVEL">
+                                                    <option>A-Level Biology</option>
+                                                    <option>A-Level Chemistry</option>
+                                                    <option>A-Level Economics</option>
+                                                    <option>A-Level French</option>
+                                                    <option>A-Level German</option>
+                                                    <option>A-Level Mathematics</option>
+                                                    <option>A-Level Physics</option>
+                                                    <option>A-Level Spanish</option>
+                                                    </optgroup>
+                                        </select>
+								</div>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Submit</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- /Modal Form -->
 	<!-- Image Slider Carousel -->
 	<div id="header-slides" class="carousel slide" data-ride="carousel">
 		<ol class="carousel-indicators">
@@ -120,7 +196,7 @@
 				</div>
 			</div>
 			<!-- /Selling point section -->
-            <hr class="my-4">
+			<hr class="my-4">
 			<!-- Hottest subjects -->
 			<div class="container-fluid">
 				<div class="row text-center">
@@ -142,62 +218,63 @@
 				</div>
 			</div>
 
-            
+
 
 			<!-- Alternating Pic & Paragraph Two Columns -->
 			<div class="container-fluid">
 				<div class="row find-out-more">
-                    <div class="col-md-6 col-lg-6">
-				        <img src="assets/images/subjects-collage.png" alt="A mini-collage of subjects we teach"/>
+					<div class="col-md-6 col-lg-6">
+						<img src="assets/images/subjects-collage.png" alt="A mini-collage of subjects we teach"/>
 				    </div>
-				    <div class="col-md-6 col-lg-6">
-					    <h2 class="uppercase">Available subjects</h2>
-					    <p>Browse our catalog for the full list of subjects that we teach.</p>
-                        <a href="#">
-							<button type="button" class="btn btn-outline-secondary btn-lg uppercase">Find out more</button>
-						</a>
+						<div class="col-md-6 col-lg-6">
+							<h2 class="uppercase">Available subjects</h2>
+							<p>Browse our catalog for the full list of subjects that we teach.</p>
+							<a href="#">
+								<button type="button" class="btn btn-outline-secondary btn-lg uppercase">Find out more</button>
+							</a>
+						</div>
+					</div>
+					<div class="row find-out-more" id="first-div">
+						<div class="col-md-6 col-lg-6">
+							<h2 class="uppercase">Our tutors</h2>
+							<p>You can check out the many subjects that our bright tutors specialise in.</p>
+							<a href="#">
+								<button type="button" class="btn btn-outline-secondary btn-lg uppercase">Learn more</button>
+							</a>
+						</div>
+						<div class="col-md-6 col-lg-6" id="second-div">
+							<img src="assets/images/online-teacher.jpg" alt="A tutor teaching online"/>
 				    </div>
-				</div>
-                <div class="row find-out-more" id="first-div">
-                    <div class="col-md-6 col-lg-6">
-					    <h2 class="uppercase">Our tutors</h2>
-					    <p>You can check out the many subjects that our bright tutors specialise in.</p>
-                        <a href="#">
-							<button type="button" class="btn btn-outline-secondary btn-lg uppercase">Learn more</button>
-						</a>
+						</div>
+						<div class="row find-out-more">
+							<div class="col-md-6 col-lg-6">
+								<img src="assets/images/questions.jpg" alt="A mini-collage of subjects we teach"/>
 				    </div>
-                    <div class="col-md-6 col-lg-6" id="second-div">
-				        <img src="assets/images/online-teacher.jpg" alt="A tutor teaching online"/>
-				    </div>
-				</div>
-                <div class="row find-out-more">
-                    <div class="col-md-6 col-lg-6">
-				        <img src="assets/images/questions.jpg" alt="A mini-collage of subjects we teach"/>
-				    </div>
-				    <div class="col-md-6 col-lg-6">
-					    <h2 class="uppercase">Get in touch</h2>
-					    <p>Have any questions in mind?<br>Need further information?<br>Want to become one of our tutors?</p>
-                        <a href="#">
-							<button type="button" class="btn btn-outline-secondary btn-lg uppercase">Contact us</button>
-						</a>
-				    </div>
-				</div>
-			</div>
-			<!-- Reviews Carousel -->
+								<div class="col-md-6 col-lg-6">
+									<h2 class="uppercase">Get in touch</h2>
+									<p>Have any questions in
+										mind?<br>Need further information?<br>Want to become one of our tutors?</p>
+										<a href="#">
+											<button type="button" class="btn btn-outline-secondary btn-lg uppercase">Contact us</button>
+										</a>
+								</div>
+							</div>
+						</div>
+						<!-- Reviews Carousel -->
 
-			<!-- Footer -->
-			<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-				integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-				crossorigin="anonymous">
-			</script>
-			<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-				integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-				crossorigin="anonymous">
-			</script>
-			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-				integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-				crossorigin="anonymous">
-			</script>
+						<!-- Footer -->
+						<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+							integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+							crossorigin="anonymous">
+						</script>
+						<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+							integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+							crossorigin="anonymous">
+						</script>
+						<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+							integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+							crossorigin="anonymous">
+						</script>
 </body>
 
 </html>

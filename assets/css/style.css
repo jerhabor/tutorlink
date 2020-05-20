@@ -1,8 +1,12 @@
 
 
 /* ------------------------------------------------Header */
+.navbar {
+    background-color: #bbdefb;
+}
+
 .navbar-brand img {
-    max-height: 50px;
+    max-height: 10px;
     width: auto;
 }
 
@@ -23,7 +27,6 @@
     max-height: 50px;
     width: auto;
 }
-
 
 .find-out-more img {
     max-height: 300px;
