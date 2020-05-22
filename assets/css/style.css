@@ -6,7 +6,7 @@
 }
 
 .navbar-brand img {
-    max-height: 10px;
+    max-height: 50px;
     width: auto;
 }
 
@@ -37,3 +37,9 @@
 .uppercase {
     text-transform: uppercase;
 }
+
+.padding-text {
+    padding: 50px 30px;
+}
+
+/* ------------------------------------------------Media Queries */
