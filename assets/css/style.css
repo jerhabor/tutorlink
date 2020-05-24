@@ -30,8 +30,9 @@
 
 .find-out-more img {
     max-height: 300px;
-    width;
+    width: auto;
 }
+
 /* ------------------------------------------------Special text/paddings/margins */
 
 .uppercase {
@@ -42,4 +43,53 @@
     padding: 50px 30px;
 }
 
+.tutors .jumbotron {
+    padding: 32px 32px;
+}
+
 /* ------------------------------------------------Media Queries */
+
+
+
+/* ------------------------------------------------Tutor profiles */
+
+.profile {
+    margin-top: 40px;
+}
+
+.profile-pic {
+    max-height: 200px;
+    width: auto;
+    border: black 2px solid;
+    border-radius: 50% 50%;
+}
+
+.profile img {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+}
+
+.profile img:hover {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+}
+
+.profile-body {
+    margin-top: 10px;
+}
+
+/* ------------------------------------------------Reviews Carousel */
+
+#reviews-slides li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    /* Code used from https://stackoverflow.com/questions/47235256/bootstrap-4-change-the-carousel-indicators-into-dots */
+}
+
+
+/* ------------------------------------------------Footer */
