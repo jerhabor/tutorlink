@@ -1,8 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat&family=Roboto&display=swap');
 
+/* ------------------------------------------------General */
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.padding {
+    padding-top: 20px;
+}
 
 /* ------------------------------------------------Header */
 .navbar {
-    background-color: #bbdefb;
+    background-color: #C0392B;
+}
+
+.navbar-brand {
+    font-family: 'Audiowide', cursive;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+#navbarNav li a {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+#navbarNav li button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
 .navbar-brand img {
@@ -39,7 +69,24 @@
     text-transform: uppercase;
 }
 
-.padding-text {
+.navbar-header {
+    padding-right: 0px;
+}
+
+.selling-point {
+    margin-bottom: 20px;
+}
+
+.selling-point div > * {
+    padding: 0% 10%;
+}
+
+.top-subjects {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.site-nav-text {
     padding: 50px 30px;
 }
 
@@ -47,9 +94,35 @@
     padding: 32px 32px;
 }
 
+.social-media i {
+    margin-right: 10px;
+}
+
 /* ------------------------------------------------Media Queries */
 
+@media (min-width: 840px) {
 
+    .navbar .navbar-header {
+        flex-wrap: nowrap;
+    }
+    /* ---Help from stackoverflow--- */
+    .navbar-expand-custom .navbar-nav {
+        flex-direction: row;
+    }
+
+    .navbar-expand-custom .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+    .navbar-expand-custom .navbar-collapse {
+        display: flex!important;
+    }
+    .navbar-expand-custom .navbar-toggler {
+        display: none;
+    }
+    /* ---/Help from stackoverflow--- */
+    
+}
 
 /* ------------------------------------------------Tutor profiles */
 
@@ -84,6 +157,11 @@
 
 /* ------------------------------------------------Reviews Carousel */
 
+.reviews-icon {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
 #reviews-slides li {
     width: 10px;
     height: 10px;
@@ -91,5 +169,33 @@
     /* Code used from https://stackoverflow.com/questions/47235256/bootstrap-4-change-the-carousel-indicators-into-dots */
 }
 
+.checked {
+    color: orange;
+}
+
+#reviews-slides .carousel-indicators {
+  bottom: -50px;
+}
+
+#reviews-slides .carousel-inner {
+   margin-bottom: 50px;
+}
 
 /* ------------------------------------------------Footer */
+
+footer {
+    background-color: #C0392B;
+    color: #fff;
+}
+
+footer h5 {
+    padding-top: 20px;
+}
+
+.copyright {
+    margin-bottom: 10px;
+}
+
+.social-media i {
+    color: #fff;
+}
