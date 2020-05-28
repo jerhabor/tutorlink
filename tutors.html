@@ -16,28 +16,28 @@
 
 <body>
 	<!-- Navigation -->
-	<nav class="navbar navbar-expand-md navbar-light sticky-top">
-		<div class="container-fluid padding">
-			<a href="#" class="navbar-brand"><img src="assets/images/tutorlink-logo.png" alt="TutorLink Logo"/></a>
+	<nav class="navbar navbar-expand-custom navbar-dark sticky-top">
+		<div class="container-fluid navbar-header">
+			<a href="index.html" class="navbar-brand uppercase">Tutorlink</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
-							<a class="nav-link mr-3 uppercase" href="index.html">Home<span class="sr-only">(current)</span></a>
+							<a class="nav-link uppercase" href="index.html">Home<span class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item active">
-							<a class="nav-link mr-3 uppercase" href="tutors.html">Tutors</a>
+							<a class="nav-link uppercase" href="tutors.html">Tutors</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link mr-3 uppercase" href="/">Subjects</a>
+							<a class="nav-link uppercase" href="subjects.html">Subjects</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link mr-3 uppercase" href="/">Contact</a>
+							<a class="nav-link uppercase" href="contact.html">Contact</a>
 						</li>
 						<li class="nav-item">
-							<button type="button" class="btn btn-warning uppercase" data-toggle="modal" data-target="#signup">Sign Up</button>
+							<button type="button" class="btn btn-warning uppercase" data-toggle="modal" data-target=".signup">Sign Up</button>
 						</li>
 					</ul>
 				</div>
@@ -119,30 +119,41 @@
 
 	<!-- /Modal Form -->
 	<!-- Header image -->
-			<!-- /Header image -->
-			<!-- Sign Up Jumbotron -->
-			<div class="container-fluid tutors padding">
-				<div class="row jumbotron text-center">
-					<div class="col-12">
-						<h4 class="uppercase">Get mentored by one of our bright tutors</h4>
-					</div>
-					<div class="col-12">
-						<a href="#">
-							<button type="button" class="btn btn-outline-secondary btn-lg uppercase">Sign Up Now</button>
-						</a>
-					</div>
+
+  <div class="container-fluid page-header">
+				<img class="page-header-bg" src="/assets/images/tutors/header.jpg" alt="Header image of a tutor teaching"/>
+				<div class="header-text uppercase">
+					<h1>Get to know us</h1>
 				</div>
-			</div>
-			<!-- /Sign Up Jumbotron -->
+                </div>
+			<!-- /Header image -->
 
 			<!-- Meet the tutors -->
-			<div class="container-fluid padding">
-				<div class="row welcome text-center">
+			<div class="container-fluid padding tutors">
+				<div class="row text-center padding">
 					<div class="col-12">
-						<h2 class="uppercase">Meet our tutors</h2>
-                        <p>Check out their profession and the subjects that they can teach!</p>
+						<h3><strong>All of our tutors are:</strong></h3>
 					</div>
-				</div>
+                    </div>
+                    <div class="row text-center padding">
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                    <i class="fas fa-user-check"></i>
+                    <h5>DBS Checked</h5>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                    <i class="fas fa-user-graduate"></i>
+                    <h5>University Graduates</h5>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-sm-offset-4 col-md-offset-0">
+                    <i class="fas fa-first-aid"></i>
+                    <h5>First Aiders</h5>
+                    </div>
+                    </div>
+                    <div class="row text-center padding">
+                    <div class="col-12">
+                    <h6>Check out their profession and the subjects that they can teach!</h6>
+                    </div>
+                    </div>
 			</div>
 
             <!-- Mini-profile bubbles-->
@@ -266,44 +277,105 @@
 			<hr class="my-4">
 
 		    <!-- Reviews Carousel -->
-
-			Testing testing
-
-			<!-- Reviews Carousel -->
-
-			<!-- Footer -->
-			<footer>
-			    <div class="container-fluid padding">
-				<div class="row">
-											<div class="col-12">
-												<button type="button" class="btn btn-primary sign-up-btn uppercase" data-toggle="modal" data-target="#staticBackdrop">Sign Up Now!
-                    </button>
+						<div class="container-fluid padding">
+							<div class="row padding text-center">
+								<div class="col-12 reviews-icon">
+									<i class="fas fa-quote-left"></i>
+								</div>
+								<div class="col-xs-10 col-md-6 offset-xs-1 offset-md-3">
+									<div id="reviews-slides" class="carousel slide text-center" data-ride="carousel">
+										<ol class="carousel-indicators">
+											<li data-target="#reviews-slides" data-slide-to="0" class="active"></li>
+											<li data-target="#reviews-slides" data-slide-to="1"></li>
+											<li data-target="#reviews-slides" data-slide-to="2"></li>
+											<li data-target="#reviews-slides" data-slide-to="3"></li>
+										</ol>
+										<div class="carousel-inner text-center">
+											<div class="carousel-item">
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<h3>Great Mentor</h3>
+												<p><em>I had Jesse teaching my son Michael some Maths and Michael would always tell me how much Jesse encourages him. This has helped Michael build his confidence not just in his studies but also in his life choices. Cannot thank him enough!</em>
+												</p>
+												<p>Bea Kibati (Michael Kibati's Mother) - May 2020</p>
+											</div>
+											<div class="carousel-item active">
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<h3>Very Knowledgeable</h3>
+												<p><em>Rami has been teaching me maths since my GCSEs two years ago. Although exams are cancelled this year and subjects are assessed internally, Rami has encouraged me and helped me brush up on all areas that the teacher has assessed me on</em>
+												</p>
+												<p>Austin Nana, A-Level Maths student - May 2020</p>
+											</div>
+											<div class="carousel-item">
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<h3>Well-Structured</h3>
+												<p><em>I was taught by Nicole throughout my first year of A-level Economics. I didn't study this at GCSE but her approach to teaching was so good! She broke everything down to basics making it easy for me to understand. We are continuing the sessions so that I can stay ahead of the class amidst this pandemic!</em>
+												</p>
+												<p>Geri Tola, A-Level Economics - May 2020</p>
+											</div>
+											<div class="carousel-item">
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<h3>So organised!</h3>
+												<p><em>My son Joseph is studying A-Level Physics and based off of his previous exam performances, he is predicted an "A" which is great for his university offers to study Medicine. Thanks to Mark for being consistent in tutoring him as well as checking in on him during these precedented times.</em>
+												</p>
+												<p>David B (Joseph B's father) - April 2020</p>
 											</div>
 										</div>
-										<div class="row">
-											<div class="col-12 uppercase">
-												<h6>Follow us</h6>
-											</div>
-										</div>
-										<div class="row">
-											<div class="col-12 social-media">
-												<ul class="list-inline">
-													<li class="list-inline-item"><a href="https://www.facebook.com/"
-															target="_blank"><i class="fa fa-facebook"></i></a></li>
-													<li class="list-inline-item"><a href="https://www.instagram.com/"
-															target="_blank"><i class="fa fa-instagram"></i></a></li>
-													<li class="list-inline-item"><a href="https://www.youtube.com/"
-															target="_blank"><i class="fa fa-youtube"></i></a></li>
-													<li class="list-inline-item"><a href="https://www.twitter.com/"
-															target="_blank"><i class="fa fa-twitter"></i></a></li>
-													<li class="list-inline-item"><a href="https://www.linkedin.com/"
-															target="_blank"><i class="fa fa-linkedin"></i></a></li>
-												</ul>
-											</div>
-										</div>
-			    </div>
-			</footer>
-			<!-- /Footer -->
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+						<!-- /Reviews Carousel -->
+
+						<!-- Footer -->
+						<footer>
+							<div class="container-fluid">
+                            <div class="row text-center">
+									<div class="col-12 uppercase">
+										<h5>Follow us</h5>
+									</div>
+								</div>
+								<div class="row text-center">
+									<div class="col-12 social-media">
+										<ul class="list-inline">
+											<li class="list-inline-item"><a href="https://www.facebook.com/"
+													target="_blank"><i class="fab fa-facebook"></i></a></li>
+											<li class="list-inline-item"><a href="https://www.instagram.com/"
+													target="_blank"><i class="fab fa-instagram"></i></a></li>
+											<li class="list-inline-item"><a href="https://www.youtube.com/"
+													target="_blank"><i class="fab fa-youtube"></i></a></li>
+											<li class="list-inline-item"><a href="https://www.twitter.com/"
+													target="_blank"><i class="fab fa-twitter"></i></a></li>
+											<li class="list-inline-item"><a href="https://www.linkedin.com/"
+													target="_blank"><i class="fab fa-linkedin"></i></a></li>
+										</ul>
+									</div>
+								</div>
+                                <div class="row text-center">
+                                    <div class="col-12 copyright">
+                                        <p>&copy; Tutorlink 2020</p>
+                                    </div>
+                                </div>
+                            </div>
+						</footer>
+						<!-- /Footer -->
             
             <!-- Bootstrap JS code-->
 			<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
