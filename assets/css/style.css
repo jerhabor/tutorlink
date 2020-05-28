@@ -12,6 +12,15 @@ body {
     padding-top: 20px;
 }
 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* ------------------------------------------------Header */
 .navbar {
     background-color: #C0392B;
@@ -27,12 +36,25 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: #fff;
     letter-spacing: 2px;
+    padding-right: 25px;
+}
+
+#navbarNav li a:hover {
+    font-weight: bold;
+
 }
 
 #navbarNav li button {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     letter-spacing: 2px;
+    transform: scale(1);
+}
+
+#navbarNav li button:hover {
+    transform: scale(1.1);
+    background-color: gold;
+    color: #000;
 }
 
 .navbar-brand img {
@@ -40,9 +62,14 @@ body {
     width: auto;
 }
 
+.nav-item.active {
+    font-weight: bold;
+}
+
 #header-slides img {
     max-height: 700px;
     width: auto;
+    filter: brightness(0.6);
 }
 
 .welcome {
@@ -86,6 +113,10 @@ body {
     margin-bottom: 20px;
 }
 
+#top-subjects-now.collapse button {
+    margin-bottom: 10px;
+}
+
 .site-nav-text {
     padding: 50px 30px;
 }
@@ -124,7 +155,45 @@ body {
     
 }
 
-/* ------------------------------------------------Tutor profiles */
+/* ------------------------------------------------Tutors */
+
+.page-header {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.page-header-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6)
+}
+
+.header-text {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    text-align: center;
+    padding: 8em 10px 0px;
+    color: #fff;
+}
+
+.header-text h1 {
+    text-shadow: 2px 2px 2px rgb(41, 40, 40);
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.tutors i {
+    font-size: 60px;
+    line-height: 70px;
+}
 
 .profile {
     margin-top: 40px;
@@ -133,7 +202,7 @@ body {
 .profile-pic {
     max-height: 200px;
     width: auto;
-    border: black 2px solid;
+    border: #000 2px solid;
     border-radius: 50% 50%;
 }
 
