@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="icon" href="assets/images/favicon.ico">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<title>Tutorlink</title>
+</head>
+
+<body>
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-custom navbar-dark sticky-top">
+		<div class="container-fluid navbar-header">
+			<a href="index.html" class="navbar-brand uppercase">Tutorlink</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link uppercase" href="index.html">Home<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link uppercase" href="tutors.html">Tutors</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link uppercase" href="subjects.html">Subjects</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link uppercase" href="contact.html">Contact</a>
+						</li>
+						<li class="nav-item">
+							<button type="button" class="btn btn-warning uppercase" data-toggle="modal" data-target=".signup">Sign Up</button>
+						</li>
+					</ul>
+				</div>
+		</div>
+	</nav>
+	<!-- /Navigation -->
+
+	<!-- Modal Form -->
+
+	<div class="modal fade" id="signup" data-backdrop="static" tabindex="-1" role="dialog"
+		aria-labelledby="staticBackdropLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h6 class="modal-title" id="staticBackdropLabel">Sign Up!</h6>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-row">
+							<div class="form-group col-md-6">
+								<label for="fname">First Name</label>
+								<input type="name" class="form-control" id="fname" placeholder="First Name" required>
+                                            </div>
+								<div class="form-group col-md-6">
+									<label for="lname">Last Name</label>
+									<input type="name" class="form-control" id="lname" placeholder="Last Name" required>
+                                            </div>
+								</div>
+								<div class="form-group">
+									<label for="email-address">Email address</label>
+									<input type="email" class="form-control" id="email-address" placeholder="name@example.com" required>
+                                </div>
+									<div class="form-group">
+										<label for="subject-selection">Please choose a subject:</label>
+										<select class="form-control" id="subject-selection" required>
+                                                    <optgroup label="11 PLUS">
+                                                    <option>11+ Mathematics</option>
+                                                    <option>11+ English</option>
+                                                    <option>11+ Verbal Reasoning</option>
+                                                    <option>11+ Non-Verbal Reasoning</option>
+                                                    </optgroup>
+                                                    <optgroup label="KS2 SATs">
+                                                    <option>KS2 Mathematics</option>
+                                                    <option>KS2 English</option>
+                                                    </optgroup>
+                                                    <optgroup label="GCSE">
+                                                    <option>GCSE Biology</option>
+                                                    <option>GCSE Business Studies</option>
+                                                    <option>GCSE Chemistry</option>
+                                                    <option>GCSE Computer Science</option>
+                                                    <option>GCSE Economics</option>
+                                                    <option>GCSE French</option>
+                                                    <option>GCSE Mathematics</option>
+                                                    <option>GCSE Physics</option>
+                                                    <option>GCSE Spanish</option>
+                                                    </optgroup>
+                                                    <optgroup label="A-LEVEL">
+                                                    <option>A-Level Biology</option>
+                                                    <option>A-Level Business Studies</option>
+                                                    <option>A-Level Chemistry</option>
+                                                    <option>A-Level Economics</option>
+                                                    <option>A-Level French</option>
+                                                    <option>A-Level Mathematics</option>
+                                                    <option>A-Level Physics</option>
+                                                    <option>A-Level Spanish</option>
+                                                    </optgroup>
+                                        </select>
+									</div>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Submit</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- /Modal Form -->
+	<!-- Header image -->
+
+  <div class="container-fluid page-header">
+				<img class="page-header-bg" src="/assets/images/contact/header.jpg" alt="Header image of books on a table"/>
+				<div class="header-text uppercase">
+					<h1>Get in touch</h1>
+				</div>
+                </div>
+			<!-- /Header image -->
+
+<!-- Two columns -->
+
+<!-- /Two columns -->
+
+                        <!-- Reviews Carousel -->
+						<div class="container-fluid padding">
+							<div class="row padding text-center">
+								<div class="col-12 reviews-icon">
+									<i class="fas fa-quote-left"></i>
+								</div>
+								<div class="col-xs-10 col-md-6 offset-xs-1 offset-md-3">
+									<div id="reviews-slides" class="carousel slide text-center" data-ride="carousel">
+										<ol class="carousel-indicators">
+											<li data-target="#reviews-slides" data-slide-to="0" class="active"></li>
+											<li data-target="#reviews-slides" data-slide-to="1"></li>
+											<li data-target="#reviews-slides" data-slide-to="2"></li>
+											<li data-target="#reviews-slides" data-slide-to="3"></li>
+										</ol>
+										<div class="carousel-inner text-center">
+											<div class="carousel-item">
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<h3>Great Mentor</h3>
+												<p><em>I had Jesse teaching my son Michael some Maths and Michael would always tell me how much Jesse encourages him. This has helped Michael build his confidence not just in his studies but also in his life choices. Cannot thank him enough!</em>
+												</p>
+												<p>Bea Kibati (Michael Kibati's Mother) - May 2020</p>
+											</div>
+											<div class="carousel-item active">
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<h3>Very Knowledgeable</h3>
+												<p><em>Rami has been teaching me maths since my GCSEs two years ago. Although exams are cancelled this year and subjects are assessed internally, Rami has encouraged me and helped me brush up on all areas that the teacher has assessed me on</em>
+												</p>
+												<p>Austin Nana, A-Level Maths student - May 2020</p>
+											</div>
+											<div class="carousel-item">
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<h3>Well-Structured</h3>
+												<p><em>I was taught by Nicole throughout my first year of A-level Economics. I didn't study this at GCSE but her approach to teaching was so good! She broke everything down to basics making it easy for me to understand. We are continuing the sessions so that I can stay ahead of the class amidst this pandemic!</em>
+												</p>
+												<p>Geri Tola, A-Level Economics - May 2020</p>
+											</div>
+											<div class="carousel-item">
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<h3>So organised!</h3>
+												<p><em>My son Joseph is studying A-Level Physics and based off of his previous exam performances, he is predicted an "A" which is great for his university offers to study Medicine. Thanks to Mark for being consistent in tutoring him as well as checking in on him during these precedented times.</em>
+												</p>
+												<p>David B (Joseph B's father) - April 2020</p>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+						<!-- /Reviews Carousel -->
+
+						<!-- Footer -->
+						<footer>
+							<div class="container-fluid">
+                            <div class="row text-center">
+									<div class="col-12 uppercase">
+										<h5>Follow us</h5>
+									</div>
+								</div>
+								<div class="row text-center">
+									<div class="col-12 social-media">
+										<ul class="list-inline">
+											<li class="list-inline-item"><a href="https://www.facebook.com/"
+													target="_blank"><i class="fab fa-facebook"></i></a></li>
+											<li class="list-inline-item"><a href="https://www.instagram.com/"
+													target="_blank"><i class="fab fa-instagram"></i></a></li>
+											<li class="list-inline-item"><a href="https://www.youtube.com/"
+													target="_blank"><i class="fab fa-youtube"></i></a></li>
+											<li class="list-inline-item"><a href="https://www.twitter.com/"
+													target="_blank"><i class="fab fa-twitter"></i></a></li>
+											<li class="list-inline-item"><a href="https://www.linkedin.com/"
+													target="_blank"><i class="fab fa-linkedin"></i></a></li>
+										</ul>
+									</div>
+								</div>
+                                <div class="row text-center">
+                                    <div class="col-12 copyright">
+                                        <p>&copy; Tutorlink 2020</p>
+                                    </div>
+                                </div>
+                            </div>
+						</footer>
+						<!-- /Footer -->
+            
+            <!-- Bootstrap JS code-->
+			<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+			</script>
+			<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+			</script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+			</script>
+            <!-- /Bootstrap JS code-->
+</body>
+
+</html>
