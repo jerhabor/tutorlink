@@ -48,10 +48,16 @@ h6 {
     font-weight: bold;
     letter-spacing: 2px;
     transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
 }
 
 #navbarNav li button:hover {
     transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
     background-color: gold;
     color: #000;
 }
@@ -86,6 +92,9 @@ h6 {
     position: absolute;
     top: 55%;
     transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
 }
 
 .carousel-caption h1 {
@@ -97,6 +106,9 @@ h6 {
 
 .btn-outline-secondary:hover {
     transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
 }
 
 /* ------------------------------------------------index.html Body */
@@ -112,6 +124,12 @@ h6 {
 .selling-point img {
     max-height: 50px;
     width: auto;
+    margin-bottom: 10px;
+}
+
+.iframe-container {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .find-out-more img {
@@ -148,10 +166,6 @@ h6 {
 
 .site-nav-text {
     padding: 50px 80px;
-}
-
-.social-media i {
-    margin-right: 10px;
 }
 
 /* ------------------------------------------------Media Queries for Navbar*/
@@ -242,6 +256,9 @@ h6 {
     height: 100%;
     width: 100%;
     transform: translateY(45%);
+    -webkit-transform: translateY(45%);
+    -moz-transform: translateY(45%);
+    -ms-transform: translateY(45%);
     object-fit: cover;
     text-align: center;
     color: #fff;
@@ -287,22 +304,21 @@ h6 {
 .profile-pic {
     max-height: 200px;
     width: auto;
-    border: #000 2px solid;
+    border: #C0392B 2px solid;
     border-radius: 50% 50%;
 }
 
 .profile img {
+  filter: sepia(100%);
+  -webkit-filter: sepia(100%);
+  -moz-filter: sepia(100%);
+  -ms-filter: sepia(100%);
+}
+.profile img:hover {
   filter: none;
   -webkit-filter: grayscale(0%);
   -moz-filter: grayscale(0%);
   -ms-filter: grayscale(0%);
-}
-
-.profile img:hover {
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
 }
 
 .profile-body {
@@ -326,7 +342,7 @@ h6 {
 }
 
 #top-subjects-now {
-    background-color: rgb(255, 239, 147)
+    background-color: rgb(255, 239, 147);
 }
 
 #top-subjects-now button {
@@ -340,6 +356,9 @@ h6 {
     color: #fff;
     border-color: #000;
     transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
 }
 
 .eleven-plus button {
@@ -374,6 +393,9 @@ h6 {
 .subjects-nav button:hover {
     text-decoration: none;
     transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
 }
 
 .subjects-nav button a{
@@ -386,7 +408,7 @@ h6 {
     font-weight: 700;
 }
 
-.card-body h6 {
+.card-title h6 {
     color: #000;
 }
 
@@ -401,33 +423,28 @@ h6 {
     border: solid 2px #000;
 }
 
-.ks2-english {
-    padding: 0px 0px 0px 100px;
-}
-
-.ks2-exam-prep {
-    padding: 0px 100px 0px 0px;
-}
-
-.ks2-maths {
-    padding: 0px 50px;
-}
-
-.subjects-heading {
+/* .subjects-heading {
     width: 80%;
     margin: 0px auto;
-}
+} */
 
-.subjects-heading .card {
-    margin-bottom: 20px;
-}
-
-.subjects-heading hr {
+ .subjects-heading hr {
     border-top: 1px solid #000;
     width: 80%;
 }
 
-.card-body {
+.subjects-body {
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.subjects-body .card {
+    margin-bottom: 20px;
+} 
+
+.card-title {
     box-sizing: border-box;
     padding: 20px 0px;
 }
@@ -447,9 +464,27 @@ h6 {
     animation-iteration-count: infinite;
 }
 @keyframes shake {
-    0%      {transform: scale(1);}
-    50%     {transform: scale(1.1);}
-    100%     {transform: scale(1);}
+    0%      {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        }
+    50%     {
+        transform: scale(1.1); 
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        background-color: gold; 
+        font-weight: 700; 
+        color: #000;
+        }
+    100%     {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        }
 }
 
 .jumbotron button:hover, 
@@ -517,14 +552,23 @@ footer h5 {
 }
 
 .social-media i {
+    width: 60px;
+    height: 60px;
     color: #fff;
-    font-size: 25px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: solid 1px #fff;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 50%;
 }
 
 .social-media i:hover {
-    color: #fff;
-    font-size: 30px;
-    transition: font-size 0.5s;
+    background-color: #fff;
+    color: #C0392B;
+    /* -webkit-transition: font-size 1s;
+    -moz-transition: font-size 1s;
+    -ms-transition: font-size 1s; */
 }
 
 button.btn.btn-warning {
@@ -535,6 +579,9 @@ button.btn.btn-warning {
 
 button.btn.btn-warning:hover {
     transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
     background-color: gold;
     color: #000;
 }
