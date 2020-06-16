@@ -175,8 +175,18 @@ html, body {
 }
 
 .top-results img {
-    width: 100%;
+    width: 90%;
     height: auto;
+}
+
+
+.statistics {
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+.statistics ul li {
+    line-height: 30px;
 }
 
 .statistics span {
