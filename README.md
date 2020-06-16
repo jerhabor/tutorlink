@@ -3,18 +3,57 @@
 <!-- One or two paragraphs providing an overview of your project. -->
 
 <!-- Essentially, this part is your sales pitch. -->
-Welcome to Tutorlink!
- 
+Welcome to [TutorLink](https://jerhabor.github.io/tutorlink/index.html)!
+
+This website was created for parents & guardians who are in search of a private tutor for their children, as well as students themselves who are well-versed in using technological devices to access and use this site to book a tutor. The site also promotes an opportunity for aspiring tutors to join and share their wealth of knowledge to those in need. 
+
+Following the news of the COVID-19 pandemic, there has since been a strain on family members having to perform home-schooling duties for those still in school. TutorLink offers users the opportunity to alleviate this pressure by hiring a qualified tutor to guide their students to academic excellence. The key benefit of this, is that all sessions can take place in the comfort of their own homes. 
+
+Currently, online sessions are strongly recommended for safety reasons. It is without a doubt a growing market thanks to the advancement of technology to this present day. The aim of the site is to connect students to tutors. The online sessions will take place via the video conferencing application, "Zoom". The times and dates of the sessions can be settled in advance by email or text between both the student and the tutor.  This provides flexibility for both parties as lives adjust to the new normal. 
+
 ## UX
  
 <!-- Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things. -->
-TutorLink was created for parents/guardians who are in search of private tutors for their children/guardians as well as students who are well-versed in using technological devices to access and use the site. Following the news of the COVID-19 pandemic, there has since been a strain on family members having to perform home-schooling duties for their kids. TutorLink offers the user the opportunity to alleviate this pressure by hiring a qualified tutor to guide their students to academic excellence. The site also provides a paid job opportunity for aspiring tutors who are keen to share their wealth of knowledge to those in need.
+The idea of creating a platform to encourage further learning has always been one of my goals. In this case, this site was built to enable the experienced to share and the students to learn at greater depths than they normally would in school. This means that tutors will be able to provide mentorship to students and coach them through their academic journey. To illustrate the connection that this site brings between tutors and students, the name "TutorLink" was therefore birthed (credits to my mother). 
+
+The primary target audience are:
+* Students
+* Parents / Guardians who will sign up on behalf of their children
+
+The secondary target audience are aspiring tutors.
+
+TutorLink comprises of four pages, namely: 
+* [Home](https://jerhabor.github.io/tutorlink/index.html) 
+* [Tutors](https://jerhabor.github.io/tutorlink/tutors.html) 
+* [Subjects](https://jerhabor.github.io/tutorlink/subjects.html)
+* [Contact](https://jerhabor.github.io/tutorlink/contact.html)
 
 <!-- In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal. -->
 
+### User Stories
+
+As part of the Stategy stage in the five planes of UX, I deemed it necessary to undertake a strategic research process. This involved asking several people what they would expect from a website which will realise the goals and dreams of "TutorLink". The target audience came with the following suggestions:
+
+> As a GCSE student, I would like the website to be easy to navigate so that I can see what it offers as quickly as possible.
+
+> As a tutor, I would love to see testimonials from people who have used been taught by us as this will help me in promoting it to other people.
+
+> As a parent of both KS2 and 11+ students, I want to be able to sign up easily so that once I decide to do so, it is quickly over and done with.
+
+> As an A-Level student, there should be the option to choose between face-to-face and virtual tutoring.
+
+> As a parent of an 11+ student, I want your site to convince and reassure me in numerous ways why I should sign up.
+
+> As an A-Level student, I would like to see the full list of tutors so that I can familiarise myself with my chosen tutor's background beforehand.
+
+> As a GCSE student, Link subjects to any recommended revision material so that students can obtain them prior to the first session.
+
+
 <!-- This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser. -->
-The subsequent task after receiving these stories was to align them with the purpose of TutorLink in order to establish this project's requirements. This involved a pen-to-paper exercise with support from my mentor - Caleb Mbakwe - who encouraged me to think about the users. Once I defined an initial scope, I then drafted up wireframes for the website both as desktop and mobile versions. You will find these mockups and drafts in the assets folder (#here). 
+The above user requirements were aligned with the stategies of TutorLink in order to establish the project scope. This was predominantly a brainstorming activity to propose and develop initial creative solutions. You can find the initial development notes [here](/workspace/Milestone-Project-1/assets/project-development). 
+
+Once I defined an initial scope, I then drafted up wireframes for the website both as desktop and mobile versions. You will find these mockups and drafts in the assets folder (#here). 
 
 ## Features
 
