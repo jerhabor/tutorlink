@@ -51,9 +51,7 @@ As part of the Stategy stage in the five planes of UX, I deemed it necessary to 
 
 
 <!-- This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser. -->
-The above user requirements were aligned with the stategies of TutorLink in order to establish the project scope. This was predominantly a brainstorming activity to propose and develop initial creative solutions. You can find the initial development notes [here](/workspace/Milestone-Project-1/assets/project-development). 
-
-Once I defined an initial scope, I then drafted up wireframes for the website both as desktop and mobile versions. You will find these mockups and drafts in the assets folder (#here). 
+The above user requirements were aligned with the stategies of TutorLink in order to establish the project scope. This was predominantly a brainstorming activity to propose and develop initial creative solutions. Once I had consulted with my mentor and defined an initial scope, I then drafted up wireframes for the website in both desktop and mobile versions as well as a moodboard for potential elements and characteristics of the site. You can find the initial development notes [here](https://github.com/jerhabor/tutorlink/tree/master/assets/project-development).
 
 ## Features
 
