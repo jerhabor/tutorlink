@@ -260,9 +260,10 @@ html, body {
 .page-header-bg {
     position: absolute;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
     filter: brightness(0.5);
+    z-index: -1000;
+    background-attachment: fixed;
 }
 
 .header-text {
@@ -458,6 +459,8 @@ html, body {
  .subjects-heading hr {
     border-top: 1px solid #000;
     width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .subjects-body {
@@ -589,16 +592,24 @@ html, body {
 .back-to-top {
     border: solid 1px #000;
     box-sizing: border-box;
-    width: 150px;
+    width: 110px;
     border-radius: 25px;
     margin-bottom: 20px;
-    padding: 10px;
-    font-size: 15px;
+    padding: 7px;
+    font-size: 10px;
 }
 
 .back-to-top a {
     color: #000;
     text-decoration: none;
+}
+
+.back-to-top:hover {
+    background-color: grey;
+}
+
+.back-to-top a:hover {
+    color: #fff;
 }
 
 /* ------------------------------------------------ FOOTER */
