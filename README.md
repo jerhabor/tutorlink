@@ -12,7 +12,6 @@ Following the news of the COVID-19 pandemic, there has since been a strain on fa
 Currently, online sessions are strongly recommended for safety reasons. It is without a doubt a growing market thanks to the advancement of technology to this present day. The aim of the site is to connect students to tutors. The online sessions will take place via the video conferencing application, "Zoom". The times and dates of the sessions can be settled in advance by email or text between both the student and the tutor.  This provides flexibility for both parties as lives adjust to the new normal. 
 
 ## 1. User Experience (UX)
-___ 
 <!-- Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things. -->
 The idea of creating a platform to encourage further learning has always been one of my goals. In this case, this site was built to enable the experienced to share and the students to learn at greater depths than they normally would in school. This means that tutors will be able to provide mentorship to students and coach them through their academic journey. To illustrate the connection that this site brings between tutors and students, the name "TutorLink" was therefore birthed (credits to my mother). 
 
@@ -24,7 +23,6 @@ The secondary target audience are aspiring tutors.
 - As a user type, I want to perform an action, so that I can achieve a goal. -->
 
 ### 1.1 User Stories
-___
 As part of the Stategy stage in the five planes of UX, I deemed it necessary to undertake a strategic research process. This involved asking several people what they would expect from this website and tying in these ideas to realise the goals of TutorLink. The target audience came with the following suggestions:
 
 > As a GCSE student, I would like the website to be easy to navigate so that I can see what it offers as quickly as possible.
@@ -46,14 +44,12 @@ As part of the Stategy stage in the five planes of UX, I deemed it necessary to 
 These user requirements were traded off and aligned with the stategies of TutorLink in order to establish the project scope. This was predominantly a brainstorming activity to propose and develop initial creative solutions. Once I had consulted with my mentor and defined an initial scope, I then drafted up wireframes for the website in both desktop and mobile versions as well as a moodboard for potential elements and characteristics of the site. I have compiled my project development files in a folder [here](https://github.com/jerhabor/tutorlink/tree/master/assets/project-development).
 
 ### 1.2 Structure & Skeleton
-___
 My systematic approach was to an invisible loop between these two phases of UX design, for reassurance that my deliverables would be an optimal fit for the target audience. I made sure that my wireframes were at least a good representation of how I wish to present information and how well users will be able to interact. 
 
 I used Balsamiq Wireframes to construct my mockups. However, there were limited features on this software to illustrate what I intended to present (e.g. colours, animation etc). These extra features were noted down and I decided to progress with building the outline/template of the website by commenting out section headings in my GitPod workspace.
 
 
 ## 2. Features
-___
 <!-- In this section, you should go over the different parts of your project, and describe each in a sentence or so. -->
 
 TutorLink comprises of four pages, namely: 
@@ -63,7 +59,6 @@ TutorLink comprises of four pages, namely:
 * [Contact](https://jerhabor.github.io/tutorlink/contact.html)
 
 ### 2.1 General Features
-___
 * **Navigation bar** - The passion red colour theme with a contrasting white font, gives a warm welcoming feel to the site as users visit. A good first impression always counts. The active page is in bold and hover effects are applied to the non-active menu items. The **_Sign Up_** button back a gold background so that it stands out to users. I also used the following Bootstrap class to make the header stick on scroll, to a length equivalent to the height of the viewing device's screen:
 ~~~
 <nav class="sticky-top">
@@ -98,31 +93,28 @@ ___
 * **Footer** - To create consistency across the site, I decided to take the advice of Code Institute mentor and past graduates and go with a "less is more" approach. This section only contains the social links and the **_Sign Up Now_** button that will load a modal for the user to fill in.
 
 ### 2.2 Specific Features in [Home](https://jerhabor.github.io/tutorlink/index.html)
-___
-* Carousel Header
-* "Tutorlink" Introduction
-* Mission Statements
-* Selling Point
-* Statistics
-* Jumbotron
-* Two-column Site Navigation Section
+* **Carousel Header** - I used three background images as carousel items with captions that summarise the type of tuition/tutors that TutorLink provides. The height is 80% of the screen which gives sufficient.
+
+* **Tutorlink Introduction**
+* **Mission Statements**
+* **Selling Point** - In order to captivate users, it is advised to use more than one means of communication. Up until this point, I have used text and images. So I decided to incorporate a youtube video in an iframe which provides both video and audio; this is more appealing to users of today.
+* **Statistics** - 
+* **Jumbotron** - This section reminds the user to sign up. I decided to add animation effects to make it stand out so that in the event of scrolling, users can see it easily. I need it to stand out after stating my selling points and success rates.
+* **Two-column Site Navigation Section**
 
 ### 2.3 Specific Features in [Tutors](https://jerhabor.github.io/tutorlink/tutors.html)
-___
-* Qualifications
-* Mini-Profiles
+* **Qualifications**
+* **Mini-Profiles**
 
 ### 2.4 Specific Features in [Subjects](https://jerhabor.github.io/tutorlink/subjects.html)
-___
-* Top Subjects
-* "What We Offer" Section
-* Navigation to Subject Groups
-* Subjects
+* **Top Subjects**
+* **"What We Offer" Section**
+* **Navigation to Subject Groups**
+* **Subjects**
 
 ### 2.5 Specific Features in [Contact](https://jerhabor.github.io/tutorlink/contact.html)
-___
-* "Contact" Introduction
-* "Contact" Body
+* **"Contact" Introduction**
+* **"Contact" Body**
 
 <!-- - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - ... -->
@@ -132,7 +124,6 @@ ___
 <!-- In addition, you may also use this section to discuss plans for additional features to be implemented in the future: -->
 
 ### 2.6 Features Left to Implement
-___
 These features were disregarded in the scope for this version of the site. The main reason being that they are currently not a necessity in order to fulfill the user requirements. However to grow the brand, the following features can improve user-experience and increase marketability:
 
 * Incorporate [Calendly](https://calendly.com/pages/integrations/embed) so that users can book sessions online without awaiting confirmation from tutors (inspired by Code Institute's Mentor's Calendar).
