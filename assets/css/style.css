@@ -226,7 +226,7 @@ html, body {
 /* ------------------------------------------------ MEDIA QUERIES FOR JUMBOTRON */
 
 
-@media (min-width: 475px) and (max-width: 767px) {
+@media (min-width: 475px) and (max-width: 768px) {
 
     .jumbotron h3 {
         font-size: 1.5rem;
