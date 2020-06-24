@@ -94,29 +94,6 @@ html, body {
     height: 30px;
 }
 
-/* ------------------------------------------------ MEDIA QUERIES FOR NAVBAR */
-
-@media (min-width: 840px) {
-
-    .navbar .navbar-header {
-        flex-wrap: nowrap;
-    }
-    .navbar-expand-custom .navbar-nav {
-        flex-direction: row;
-    }
-
-    .navbar-expand-custom .navbar-nav .nav-link {
-        padding-right: 0.5rem;
-        padding-left: 0.5rem;
-    }
-    .navbar-expand-custom .navbar-collapse {
-        display: flex!important;
-    }
-    .navbar-expand-custom .navbar-toggler {
-        display: none;
-    }
-}
-
 /* ------------------------------------------------ INDEX.HTML */
 
 .carousel-item {
@@ -205,6 +182,30 @@ html, body {
     padding: 50px 30px;
 }
 
+
+/* ------------------------------------------------ MEDIA QUERIES FOR NAVBAR */
+
+@media (min-width: 840px) {
+
+    .navbar .navbar-header {
+        flex-wrap: nowrap;
+    }
+    .navbar-expand-custom .navbar-nav {
+        flex-direction: row;
+    }
+
+    .navbar-expand-custom .navbar-nav .nav-link {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+    .navbar-expand-custom .navbar-collapse {
+        display: flex!important;
+    }
+    .navbar-expand-custom .navbar-toggler {
+        display: none;
+    }
+}
+
 /* ------------------------------------------------ MEDIA QUERIES FOR INDEX.HTML CAROUSEL CAPTIONS */
 
 @media (max-width: 499px) {
@@ -214,7 +215,7 @@ html, body {
     }
 
     .header-text h1 {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 }
 
@@ -271,7 +272,7 @@ html, body {
     text-align: center;
     object-fit: cover;
     color: #fff;
-    padding: 0% 10%;
+    padding: 0% 5%;
 }
 
 .header-text h1 {
