@@ -59,62 +59,120 @@ TutorLink comprises of four pages, namely:
 * [Contact](https://jerhabor.github.io/tutorlink/contact.html)
 
 ### 2.1 General Features
-* **Navigation bar** - The passion red colour theme with a contrasting white font, gives a warm welcoming feel to the site as users visit. A good first impression always counts. The active page is in bold and hover effects are applied to the non-active menu items. The **_Sign Up_** button back a gold background so that it stands out to users. I also used the following Bootstrap class to make the header stick on scroll, to a length equivalent to the height of the viewing device's screen:
-~~~
-<nav class="sticky-top">
-~~~
+#### 2.1.1 Navigation bar
+The passion red colour theme with a contrasting white font, gives a warm welcoming feel to the site as users visit. A good first impression always counts. The active page is in bold and hover effects are applied to the non-active menu items. The **_Sign Up_** button back a gold background so that it stands out to users. I also used the following Bootstrap class to make the header stick on scroll, to a length equivalent to the height of the viewing device's screen:
+    ~~~
+    <nav class="sticky-top">
+    ~~~
 
-* **Sign Up Modal Form** - This allows the primary target audience to easily sign up in one click. At first glance, this can be accessed by clicking the **_Sign Up_** button on the navigation bar. There are also **_Sign Up Now_** buttons located on: 
-    - Each page's _Footer_
-    - The Home page _Jumbotron_
-    - The _Top Subjects_ collapsible section on the Subjects page 
-    - The contact page's _Book A Tutor_ section.
+#### 2.1.2 Sign Up Modal Form
+This allows the primary target audience to easily sign up in one click. At first glance, this can be accessed by clicking the **_Sign Up_** button on the navigation bar. 
+There are also **_Sign Up Now_** buttons on each page located in: 
+    * *Footer*
+    * *Jumbotron* on Home pages
+    * *Top Subjects* collapsible section on Subjects pages
+    * *Book A Tutor* section on Contact page. 
 
-* **Header** - The [Tutors](https://jerhabor.github.io/tutorlink/tutors.html), [Subjects](https://jerhabor.github.io/tutorlink/subjects.html) and [Contact](https://jerhabor.github.io/tutorlink/contact.html) pages have background photo with a heading to indicate what the page offers users. The [Home](https://jerhabor.github.io/tutorlink/index.html) page however uses a carousel as I wanted to immediately communicate to users what the site offers without them having to click anything or anywhere.
+    My mentor, Caleb Mbakwe, had provided me with a short Javascript attribute code just for the purpose of the form submission returning a feedback box after Submit has been pressed. This code is found on line 57 for index.html, tutors.html and subjects.html as well as line 56 for contact.html: 
 
-* **Background** - I decided to use a plain white background which is a nice contrast to the deep passion red navigation bar and footer. This is therefore visually appealing and allows users to read information clearly as the font colour used were predominantly dark.
+        ~~~
+        onsubmit="alert('Thank you, we have received your request. We will be in touch with you within 24 hours.'); return false;"
+        ~~~ 
 
-* **Fonts Used** - I chose _Montserrat_ as the main font because the wide letter-spacing ensures clarity of textual information to all viewers. _Roboto_ was used in two areas of the site: 
+
+#### 2.1.3 Header
+The [Tutors](https://jerhabor.github.io/tutorlink/tutors.html), [Subjects](https://jerhabor.github.io/tutorlink/subjects.html) and [Contact](https://jerhabor.github.io/tutorlink/contact.html) pages have background photo with a heading to indicate what the page offers users. The [Home](https://jerhabor.github.io/tutorlink/index.html) page however uses a carousel as I wanted to immediately communicate to users what the site offers without them having to click anything or anywhere.
+
+#### 2.1.4 Background
+I decided to use a plain white background which is a nice contrast to the deep passion red navigation bar and footer. This is therefore visually appealing and allows users to read information clearly as the font colour used were predominantly dark.
+
+#### 2.1.5 Fonts Used
+I chose _Montserrat_ as the main font because the wide letter-spacing ensures clarity of textual information to all viewers. _Roboto_ was used in two areas of the site: 
     1. The subjects taught by each tutor - in order to disrupt the initial monotonous aura that the page gave off. 
     2. The italicised text of the Testimonials section - as Roboto was easier on the eye according to users.
 
-* **Testimonials** - Located before the footer, this section also uses a carousel so that users can read multiple reviews in a short space of time without having to click elsewhere on the site. I created my bespoke circular bottom indictors by:
-~~~ 
-#reviews-slides li {
+#### 2.1.6 Testimonials
+Located before the footer, this section also uses a carousel so that users can read multiple reviews in a short space of time without having to click elsewhere on the site. This meets the following user story:
+    > As a tutor, I would love to see testimonials from people who have used been taught by us as this will help me in promoting it to other people.
+
+    I created my bespoke circular bottom indictors by:
+    ~~~ 
+    #reviews-slides li {
     width: 10px;
     height: 10px;
     border-radius: 100%;
     background-color: #000;
-}
-~~~
+    }
+    ~~~
 
-* **Navigation Button "Back-To-Top"** - Even though the majority of today's users prefer to scroll, I created this button for easy access to the top of the page. I believe this would be useful for the older generation who may be more familiar with just clicking links to get them somewhere.
+#### 2.1.7 Navigation Button "Back-To-Top"
+Even though the majority of today's users prefer to scroll, I created this button for easy access to the top of the page. I believe this would be useful for the older generation who may be more familiar with just clicking links to get them somewhere.
 
-* **Footer** - To create consistency across the site, I decided to take the advice of Code Institute mentor and past graduates and go with a "less is more" approach. This section only contains the social links and the **_Sign Up Now_** button that will load a modal for the user to fill in.
+#### 2.1.8 Footer
+To create consistency across the site, I decided to take the advice of Code Institute mentor and past graduates and go with a "less is more" approach. This section only contains the social links and the **_Sign Up Now_** button that will load a modal for the user to fill in.
 
 ### 2.2 Specific Features in [Home](https://jerhabor.github.io/tutorlink/index.html)
-* **Carousel Header** - I used three background images as carousel items with captions that summarise the type of tuition/tutors that TutorLink provides. The height is 80% of the screen which gives sufficient.
+#### 2.2.1 Carousel Header
+I used three background images as carousel items with captions that summarise the type of tuition/tutors that TutorLink provides. The height is 80% of the screen which gives sufficient.
 
-* **Tutorlink Introduction**
-* **Mission Statements**
-* **Selling Point** - In order to captivate users, it is advised to use more than one means of communication. Up until this point, I have used text and images. So I decided to incorporate a youtube video in an iframe which provides both video and audio; this is more appealing to users of today.
-* **Statistics** - 
-* **Jumbotron** - This section reminds the user to sign up. I decided to add animation effects to make it stand out so that in the event of scrolling, users can see it easily. I need it to stand out after stating my selling points and success rates.
-* **Two-column Site Navigation Section**
+#### 2.2.2 Tutorlink Introduction
+I decide to keep this concise so that it's clear straight away what Tutorlink does. This section sits below the carousel to give more information about the company.
+
+#### 2.2.3 Mission Statements
+The use of icons gives more interaction so that the visual communication is not bland with just words.
+
+#### 2.2.4 Selling Point
+In order to captivate users, it is advised to use more than one means of communication. Up until this point, I have used text and images. So I decided to incorporate a youtube video in an iframe which provides both video and audio; this is more appealing to users of today.
+
+#### 2.2.5 Statistics
+The aim of this section is to convince users by demonstrating genuine results. I have therefore provided "Statistics" and "Selling-Point" sections as different means of reassuring users as per user story:
+> As a parent of an 11+ student, I want your site to convince and reassure me in numerous ways why I should sign up.
+    
+#### 2.2.6 Jumbotron
+This section reminds the user to sign up. I decided to add animation effects to make it stand out so that in the event of scrolling, users can see it easily. I need it to stand out after stating my selling points and success rates.
+
+#### 2.2.7 Two-column Site Navigation Section
+This section was styled with alternating pictures as both the images and the text complement each other in terms of the information that they display.
 
 ### 2.3 Specific Features in [Tutors](https://jerhabor.github.io/tutorlink/tutors.html)
-* **Qualifications**
-* **Mini-Profiles**
+#### 2.3.1 Qualifications
+List of achievements that the tutors have which demonstrate experience and ability to deliver well and in good manner. This meets the following user story:
+> As a parent of an 11+ student, I want your site to convince and reassure me in numerous ways why I should sign up.
+
+#### 2.3.2 Mini-Profiles
+For further user interaction with the page content - I used a Sepia filter on the profile images. They turn to their original colour when a mouse hovers over them in desktop mode or when the user taps them in mobile/tablet mode.
+> As an A-Level student, I would like to see the full list of tutors so that I can familiarise myself with my chosen tutor's background beforehand.
 
 ### 2.4 Specific Features in [Subjects](https://jerhabor.github.io/tutorlink/subjects.html)
-* **Top Subjects**
-* **"What We Offer" Section**
-* **Navigation to Subject Groups**
-* **Subjects**
+#### 2.4.1 Top Subjects
+By displaying to the users what the top subjects are this creates a sense of urgency for them to make a decision. The top subjects are already listed on the Home page in the "Two-column site navigation" section but are also advertised in this Subjects section. Seeing as Maths is a popular subject, this feature aims to speed up users decision-making time; especially for those who are looking for maths tutors. This therefore meets the following user stories: 
+> As a GCSE student, I would like the website to be easy to navigate so that I can see what it offers as quickly as possible.
+
+> As a parent of both KS2 and 11+ students, I want to be able to sign up easily so that once I decide to do so, it is quickly over and done with.
+
+#### 2.4.2 "What We Offer" Section
+This feature gives the user clear information on the pricing and method of teaching; both of which play a huge part in their decision. 
+> As a GCSE student, I would like the website to be easy to navigate so that I can see what it offers as quickly as possible.
+
+> As a parent of both KS2 and 11+ students, I want to be able to sign up easily so that once I decide to do so, it is quickly over and done with.
+
+> As an A-Level student, there should be the option to choose between face-to-face and virtual tutoring.
+
+
+#### 2.4.3 Navigation to Subject Groups
+Due to the amount on content on this page, when clicked, this feature allows users to go straight to the subject they are interested in to save scrolling effort.
+
+#### 2.4.4 Subjects
+The logos for some of the subjects namely maths and sciences were obtained from [Exam Paper Plus](https://exampapersplus.co.uk/). I created logos for Business Studies, Economics, Computer Science and Languages using inspiration from this site. The content makes it clear to the user what the subject is about. The subjects are also linked to revision guides so that they can purchase those quickly too. This meets the following user story:
+> As a GCSE student, Link subjects to any recommended revision material so that students can obtain them prior to the first session.
 
 ### 2.5 Specific Features in [Contact](https://jerhabor.github.io/tutorlink/contact.html)
-* **"Contact" Introduction**
-* **"Contact" Body**
+#### 2.5.1 Contact Introduction
+Simple layout stating administration opening times and expected response times. Clear information to meet the following user story:
+>  As a parent of both KS2 and 11+ students, I want to be able to sign up easily so that once I decide to do so, it is quickly over and done with.
+
+#### 2.5.2 Contact Body
+I have given the options for different user types as defined in 1. User Experience (UX). Allows them to make their choice and meet their intended goal on visiting the page.
 
 <!-- - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - ... -->
@@ -127,14 +185,24 @@ TutorLink comprises of four pages, namely:
 These features were disregarded in the scope for this version of the site. The main reason being that they are currently not a necessity in order to fulfill the user requirements. However to grow the brand, the following features can improve user-experience and increase marketability:
 
 * Incorporate [Calendly](https://calendly.com/pages/integrations/embed) so that users can book sessions online without awaiting confirmation from tutors (inspired by Code Institute's Mentor's Calendar).
-* Provide tips on how to cope under the pressure of exams and to study effectively with recommended revision techniques.
+* Ability to book your own tutor.
+    * This feature will only be considered and designed once the number of tutors per subject are significant enough for selections to be made.
+* Provide daily/weekly tips on how to cope under the pressure of exams and to study effectively with recommended revision techniques.
 * Selling of TutorLink-branded stationery and guides/books.
-* Access to exam-style questions created by TutorLink tutors
+* Access to exam-style questions created by TutorLink tutors.
 * Members/Students portal and forums so that users can keep track of sessions and engage with other TutorLink users.
 
 ## Technologies Used
 
 <!-- In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used. -->
+
+- HTML5
+- CSS3
+- Bootstrap
+- JQuery
+- Google Fonts
+- Font Awesome
+- Javascript
 
 <!-- - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation. -->
