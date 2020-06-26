@@ -601,7 +601,7 @@ tr:nth-child(even) {
 
 /* ------------------------------------------------ MEDIA QUERY FOR CONTACT.HTML */
 
-@media (min-width: 769px) {
+@media (min-width: 992px) {
 .contact-option hr {
         display: none;
     }
