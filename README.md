@@ -208,16 +208,38 @@ These features were disregarded in the scope for this version of the site. The m
 ## 4. Testing
 
 ### 4.1 How to Use Features on TutorLink
+#### 4.1.1 Navigation bar
+#### 4.1.2 Sign Up to Book a Tutor
+#### 4.1.3 Apply to Become a Tutor
+#### 4.1.4 Access TutorLink's Social Links
+#### 4.1.5 View All Tutors
+#### 4.1.6 View All Available Subjects
+#### 4.1.7 View Recommended Revision Material
+
 
 ### 4.2 Achievement of User Stories
 
 ### 4.3 Code Validation
-#### HMTL Code Validation
-#### CSS Code Validation
+- **HMTL Code Validation** - All HTML documents namely [index.html](assets/testing/validation/home.JPG), [tutors.html](assets/testing/validation/tutors.JPG), [subjects.html](assets/testing/validation/subjects.JPG) and [contact.html](assets/testing/validation/contact.JPG) passed with no warning or errors using the [W3C HTML Validator](https://validator.w3.org/).
 
-### 4.4 Test on Different Devices
+- **CSS Code Validation** - The stylesheet, [style.css](assets/testing/validation/css.JPG), passed with no errors using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator).
 
-### 4.5 Test on Different Browsers
+### 4.4 Test on Different Browsers
+
+Key: &#x2714; = Functions well
+
+|      Browser      | Version |   Home   |   Tutors  | Subjects |  Contact |                         Notes                         |
+|:-----------------:|:-------:|:--------:|:---------:|:--------:|:--------:|:-----------------------------------------------------:|
+|       Chrome      |    80   | [&#x2714;](assets/testing/browsers/home-win10-chrome.png) |  [&#x2714;](assets/testing/browsers/tutors-win10-chrome.png) | [&#x2714;](assets/testing/browsers/subjects-win10-chrome.png) | [&#x2714;](assets/testing/browsers/home-win10-chrome.png) |                                                       |
+|      Firefox      |    74   | [&#x2714;](assets/testing/browsers/home-win10-firefox.png) |  [&#x2714;](assets/testing/browsers/tutors-mac-os-firefox.png) | [&#x2714;](assets/testing/browsers/subjects-win10-firefox.png) | [&#x2714;](assets/testing/browsers/contact-mac-os-chrome.png) |                                                       |
+|       Safari      |    13   | [&#x2714;](assets/testing/browsers/home-mac-os-safari.png) |  [&#x2714;](assets/testing/browsers/tutors-mac-os-safari.png) | [&#x2714;](assets/testing/browsers/subjects-mac-os-safari.png) | [&#x2714;](assets/testing/browsers/contact-mac-os-safari.png) |                                                       |
+| Internet Explorer |    11   | [&#x2714;](assets/testing/browsers/home-win10-ie.png) | [&#x2714;](assets/testing/browsers/tutors-win10-ie.png)* | [&#x2714;](assets/testing/browsers/subjects-win10-ie.png) | [&#x2714;](assets/testing/browsers/contact-win10-ie.png) | *The css __filter__ property is not supported&#x00B9; |
+|        Edge       |    79   | [&#x2714;](assets/testing/browsers/home-win10-edge.png) |  [&#x2714;](assets/testing/browsers/tutors-win10-edge.png) | [&#x2714;](assets/testing/browsers/subjects-win10-edge.png) | [&#x2714;](assets/testing/browsers/contact-win10-edge.png) |                                                       |
+|       Opera       |    67   | [&#x2714;](assets/testing/browsers/home-mac-os-opera.png) |  [&#x2714;](assets/testing/browsers/tutors-win10-opera.png) | [&#x2714;](assets/testing/browsers/subjects-win10-opera.png) | [&#x2714;](assets/testing/browsers/contact-mac-os-opera.png) |                                                       |
+
+&#x00B9; It must be noted that although all tutor profiles displayed in an Internet Explorer browser do not have a sepia filter, this does not change the user's purpose and intent of this page.
+
+### 4.5 Test on Different Devices
 
 <!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals. -->
 
