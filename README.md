@@ -73,11 +73,7 @@ There are also **_Sign Up Now_** buttons on each page located in:
     * *Top Subjects* collapsible section on Subjects pages
     * *Book A Tutor* section on Contact page. 
 
-    My mentor, Caleb Mbakwe, had provided me with a short Javascript attribute code just for the purpose of the form submission returning a feedback box after Submit has been pressed. This code is found on line 57 for index.html, tutors.html and subjects.html as well as line 56 for contact.html: 
-
-        ~~~
-        onsubmit="alert('Thank you, we have received your request. We will be in touch with you within 24 hours.'); return false;"
-        ~~~ 
+    
 
 
 #### 2.1.3 Header
@@ -186,29 +182,42 @@ These features were disregarded in the scope for this version of the site. The m
 
 * Incorporate [Calendly](https://calendly.com/pages/integrations/embed) so that users can book sessions online without awaiting confirmation from tutors (inspired by Code Institute's Mentor's Calendar).
 * Ability to book your own tutor.
-    * This feature will only be considered and designed once the number of tutors per subject are significant enough for selections to be made.
+    * This feature will only be considered and designed when the number of tutors per subject are significant enough for selections to be made.
 * Provide daily/weekly tips on how to cope under the pressure of exams and to study effectively with recommended revision techniques.
 * Selling of TutorLink-branded stationery and guides/books.
 * Access to exam-style questions created by TutorLink tutors.
 * Members/Students portal and forums so that users can keep track of sessions and engage with other TutorLink users.
 
-## Technologies Used
+## 3. Technologies Used
 
 <!-- In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used. -->
 
-- HTML5
-- CSS3
-- Bootstrap
-- JQuery
-- Google Fonts
-- Font Awesome
-- Javascript
+- [Git](https://git-scm.com/) - TutorLink uses Git as a version control system during its development.
+- [GitPod](https://www.gitpod.io/) - This is an online Integrated Development Environment (IDE) used to build TutorLink.
+- [HTML5](https://en.wikipedia.org/wiki/HTML5) - HTML stands for Hypertext Markup Language and it is the backbone of TutorLink. The latest version - HTML5 - was used to structure, add and format the site content.
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - CSS stands for Cascading Style Sheets. The latest version - CSS3 - was used to style all HTML content of TutorLink.
+- [Bootstrap](https://getbootstrap.com/) - TutorLink uses Bootstrap's grid system to layout site content in a structured manner. This framework also provides some assistance to styling.
+- [Google Fonts](https://fonts.google.com/) - This font library offers a huge variety of font styles for selection, to help in the mood design of TutorLink.
+- [Font Awesome](https://fontawesome.com/) - TutorLink uses this icon library with its great selection of icons, to add to the visual aesthetics of the site content.
+- [JQuery](https://jquery.com/) - TutorLink uses JQuery for effects, animations and the modal form. My mentor also recommended including HTML DOM Manipulation to produce a feedback box after a user presses Submit on the Sign Up Modal.
 
 <!-- - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation. -->
 
 
-## Testing
+## 4. Testing
+
+### 4.1 How to Use Features on TutorLink
+
+### 4.2 Achievement of User Stories
+
+### 4.3 Code Validation
+#### HMTL Code Validation
+#### CSS Code Validation
+
+### 4.4 Test on Different Devices
+
+### 4.5 Test on Different Browsers
 
 <!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals. -->
 
@@ -228,7 +237,7 @@ These features were disregarded in the scope for this version of the site. The m
 
 <!-- If this section grows too long, you may want to split it off into a separate file and link to it from here. -->
 
-## Deployment
+## 5. Deployment
 
 <!-- This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku). -->
 
@@ -240,15 +249,45 @@ These features were disregarded in the scope for this version of the site. The m
 <!-- In addition, if it is not obvious, you should also describe how to run your code locally. -->
 
 
-## Credits
+## 6. Credits
 
-### Content
+### 6.1 Content
 <!-- - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z) -->
+- My mentor, Caleb, provided me with a short HTML DOM manipulation as mentioned in section 3. The following code is found on line 57 in index.html, tutors.html and subjects.html as well as line 56 in contact.html: 
+    ~~~
+    onsubmit="alert('Thank you, we have received your request. We will be in touch with you within 24 hours.'); return false;"
+    ~~~ 
 
-### Media
+- The following Media Query for **Navbar** found in lines 193 - 209 of style.css was sourced from [Stack Overflow](https://stackoverflow.com/questions/19827605/change-bootstrap-navbar-collapse-breakpoint-without-using-less):
+    ~~~
+    .navbar .navbar-header {
+        flex-wrap: nowrap;
+    }
+    .navbar-expand-custom .navbar-nav {
+        flex-direction: row;
+    }
+
+    .navbar-expand-custom .navbar-nav .nav-link {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+    .navbar-expand-custom .navbar-collapse {
+        display: flex!important;
+    }
+    .navbar-expand-custom .navbar-toggler {
+        display: none;
+    }
+    ~~~
+
+### 6.2 Media
 <!-- - The photos used in this site were obtained from ... -->
+The photos used in this site were obtained from:
+* [Pexels](https://www.pexels.com/)
+* [Google Images](https://www.google.com/imghp?hl=en)
 
-### Acknowledgements
+### 6.3 Acknowledgements
 
 <!-- - I received inspiration for this project from X -->
-
+- My mentor Caleb - for his guidance from conception to deployment.
+- Selina - for testing the site and providing feedback.
+- Slack community - for the encouragement and guidance from the beginning.
