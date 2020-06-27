@@ -44,7 +44,7 @@ As part of the Stategy stage in the five planes of UX, I deemed it necessary to 
 These user requirements were traded off and aligned with the stategies of TutorLink in order to establish the project scope. This was predominantly a brainstorming activity to propose and develop initial creative solutions. Once I had consulted with my mentor and defined an initial scope, I then drafted up wireframes for the website in both desktop and mobile versions as well as a moodboard for potential elements and characteristics of the site. I have compiled my project development files in a folder [here](https://github.com/jerhabor/tutorlink/tree/master/assets/project-development).
 
 ### 1.2 Structure & Skeleton
-My systematic approach was to an invisible loop between these two phases of UX design, for reassurance that my deliverables would be an optimal fit for the target audience. I made sure that my wireframes were at least a good representation of how I wish to present information and how well users will be able to interact. 
+My systematic approach was to create an invisible loop between these two phases of UX design, for reassurance that my deliverables would be an optimal fit for the target audience. I made sure that my wireframes were at least a good representation of how I wish to present information and how well users will be able to interact. 
 
 I used Balsamiq Wireframes to construct my mockups. However, there were limited features on this software to illustrate what I intended to present (e.g. colours, animation etc). These extra features were noted down and I decided to progress with building the outline/template of the website by commenting out section headings in my GitPod workspace.
 
@@ -61,9 +61,9 @@ TutorLink comprises of four pages, namely:
 ### 2.1 General Features
 #### 2.1.1 Navigation bar
 The passion red colour theme with a contrasting white font, gives a warm welcoming feel to the site as users visit. A good first impression always counts. The active page is in bold and hover effects are applied to the non-active menu items. The **_Sign Up_** button back a gold background so that it stands out to users. I also used the following Bootstrap class to make the header stick on scroll, to a length equivalent to the height of the viewing device's screen:
-    ~~~
-    <nav class="sticky-top">
-    ~~~
+~~~
+<nav class="sticky-top">
+~~~
 
 #### 2.1.2 Sign Up Modal Form
 This allows the primary target audience to easily sign up in one click. At first glance, this can be accessed by clicking the **_Sign Up_** button on the navigation bar. 
@@ -219,6 +219,35 @@ These features were disregarded in the scope for this version of the site. The m
 
 ### 4.2 Achievement of User Stories
 
+> As a GCSE student, I would like the website to be easy to navigate so that I can see what it offers as quickly as possible.
+
+Achieved in features 2.1.1, 2.1.7, 2.2.7
+
+> As a tutor, I would love to see testimonials from people who have used been taught by us as this will help me in promoting it to other people.
+
+Achieved in feature 2.1.6
+
+> As a parent of both KS2 and 11+ students, I want to be able to sign up easily so that once I decide to do so, it is quickly over and done with.
+
+Achieved in features 2.1.1, 2.1.8, 2.2.6, 2.4.1, 2.5.2
+
+> As an A-Level student, there should be the option to choose between face-to-face and virtual tutoring.
+
+Achieved in feature 2.4.2 
+(I did not add the option to the modal to allow discussion for flexibility in switching from face-to-face to online and vice versa. A great example is the COVI19 pandemic when only online sessions were permitted.)
+
+> As a parent of an 11+ student, I want your site to convince and reassure me in numerous ways why I should sign up.
+
+Achieved in features 2.1.6, 2.2.3, 2.2.4, 2.2.5
+
+> As an A-Level student, I would like to see the full list of tutors so that I can familiarise myself with my chosen tutor's background beforehand.
+
+Achieved in feature 2.3.2
+
+> As a GCSE student, Link subjects to any recommended revision material so that students can obtain them prior to the first session.
+
+Achieved in feature 2.4.4
+
 ### 4.3 Code Validation
 - **HMTL Code Validation** - All HTML documents namely [index.html](assets/testing/validation/home.JPG), [tutors.html](assets/testing/validation/tutors.JPG), [subjects.html](assets/testing/validation/subjects.JPG) and [contact.html](assets/testing/validation/contact.JPG) passed with no warning or errors using the [W3C HTML Validator](https://validator.w3.org/).
 
@@ -241,6 +270,7 @@ Key: &#x2714; = Functions well
 
 ### 4.5 Test on Different Devices
 
+ For most of the project development, Chrome's DevTools were used. Upon completion, BrowserStack was used to test simulated user interaction with TutorLink on different devices. Screen recordings of these were made using [Apowersoft](https://www.apowersoft.com/free-online-screen-recorder?__c=1).
 <!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals. -->
 
 <!-- Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them. -->
