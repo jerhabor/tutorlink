@@ -1,4 +1,4 @@
-# User Centric Frontend Development Project - Tutorlink
+# User Centric Frontend Development Project - TutorLink
 
 <!-- One or two paragraphs providing an overview of your project. -->
 
