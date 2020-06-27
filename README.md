@@ -28,7 +28,7 @@
 <!-- One or two paragraphs providing an overview of your project. -->
 
 <!-- Essentially, this part is your sales pitch. -->
-Welcome to [TutorLink](https://jerhabor.github.io/tutorlink/index.html)!
+**Welcome to [TutorLink](https://jerhabor.github.io/tutorlink/index.html)!**
 
 This website was created for parents & guardians who are in search of a private tutor for their children, as well as students themselves who are well-versed in using technological devices to access and use this site to book a tutor. The site also promotes an opportunity for aspiring tutors to join and share their wealth of knowledge to those in need.
 
