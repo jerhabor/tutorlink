@@ -47,17 +47,18 @@
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="staticBackdropLabel"><img src="assets/images/favicon.ico" alt=""/> Sign Up!
+                        <h5 class="modal-title" id="staticBackdropLabel">
+                            <img src="assets/images/favicon.ico" alt=""/> Sign Up!
                         </h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"> 
-                            <span aria-hidden="true">&times;</span>
+                        <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <form onsubmit="alert('Thank you, we have received your request. We will be in touch with you within 24 hours.'); return false;">
                         <div class="modal-body">
                             <div class="form-row">
                                 <div class="form-group col-md-3">
-                                    <label for="title">Title</label>
+                                    <label for="title">Title:</label>
                                     <select class="form-control" id="title" required>
                                         <option selected disabled value="">Choose</option>
                                         <option value="Mr.">Mr.</option>
@@ -68,22 +69,22 @@
                                     </select>
                                 </div>
                                 <div class="form-group col-md-9">
-                                    <label for="name">Full Name</label>
+                                    <label for="name">Full Name:</label>
                                     <input type="text" class="form-control" id="name" required/>
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label for="phone">Phone Number</label>
+                                <label for="phone">Phone Number:</label>
                                 <input type="tel" class="form-control" id="phone" required/>
                             </div>
                             <div class="form-group">
-                                <label for="email-address">Email address</label>
+                                <label for="email-address">Email Address:</label>
                                 <input type="email" class="form-control" id="email-address" placeholder="name@example.com" required/>
                             </div>
                             <div class="form-group">
-                                <label for="subject-selection">Please choose a subject:</label>
+                                <label for="subject-selection">Subject:</label>
                                 <select class="form-control" id="subject-selection" required>
-                                    <option selected disabled value="">Choose subject</option>
+                                    <option selected disabled value="">Choose</option>
                                     <optgroup label="11 PLUS">
                                         <option>11+ Mathematics</option>
                                         <option>11+ English</option>
