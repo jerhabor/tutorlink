@@ -270,7 +270,24 @@ Key: &#x2714; = Functions well
 
 ### 4.5 Test on Different Devices
 
- For most of the project development, Chrome's DevTools were used. Upon completion, BrowserStack was used to test simulated user interaction with TutorLink on different devices. Screen recordings of these were made using [Apowersoft](https://www.apowersoft.com/free-online-screen-recorder?__c=1).
+Key: &#x2714; = Displays as intended
+
+|          Device         | Viewport (Width x Height) |   Home   |  Tutors  | Subjects |  Contact |
+|:-----------------------:|:-------------------------:|:--------:|:--------:|:--------:|:--------:|
+|         Moto G4         |         360 x 640         | &#x2714; | &#x2714; | &#x2714; | &#x2714; |
+|        Galaxy S5        |         360 x 640         | &#x2714; | &#x2714; | &#x2714; | &#x2714; |
+|        Galaxy S7        |         360 x 640         | &#x2714; | &#x2714; | &#x2714; | &#x2714; |
+|         Pixel 2         |         411 x 731         | &#x2714; | &#x2714; | &#x2714; | &#x2714; |
+|        Pixel 2 XL       |         411 x 823         | &#x2714; | &#x2714; | &#x2714; | &#x2714; |
+|       iPhone 5/SE       |         320 x 568         | &#x2714; | &#x2714; | &#x2714; | &#x2714; |
+|       iPhone 6/7/8      |         375 x 667         | &#x2714; | &#x2714; | &#x2714; | &#x2714; |
+|    iPhone 6/7/8  Plus   |         414 x 736         | &#x2714; | &#x2714; | &#x2714; | &#x2714; |
+|         iPhone X        |         375 x 812         | &#x2714; | &#x2714; | &#x2714; | &#x2714; |
+|           iPad          |         768 x 1024        | &#x2714; | &#x2714; | &#x2714; | &#x2714; |
+|         iPad Pro        |        1024 x 1366        | &#x2714; | &#x2714; | &#x2714; | &#x2714; |
+| Sony Bravia  Television |   55-inch diagonal (4K)   | &#x2714; | &#x2714; | &#x2714; | &#x2714; |
+
+ For most of the project development, Chrome's DevTools were used. Upon completion, [BrowserStack](https://www.browserstack.com/) was used to test simulated user interaction with TutorLink on different devices. Screen recordings of these were made using [Apowersoft](https://www.apowersoft.com/free-online-screen-recorder?__c=1).
 <!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals. -->
 
 <!-- Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them. -->
