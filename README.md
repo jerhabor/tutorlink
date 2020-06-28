@@ -1,5 +1,16 @@
 # User Centric Frontend Development Project - TutorLink
 
+<!-- One or two paragraphs providing an overview of your project. -->
+
+<!-- Essentially, this part is your sales pitch. -->
+## Welcome to [TutorLink](https://jerhabor.github.io/tutorlink/index.html)!
+
+This website was created for parents & guardians who are in search of a private tutor for their children, as well as students themselves who are well-versed in using technological devices to access and use this site to book a tutor. The site also promotes an opportunity for aspiring tutors to join and share their wealth of knowledge to those in need.
+
+Following the news of the COVID-19 pandemic, there has since been a strain on family members having to perform home-schooling duties for those still in school. TutorLink offers users the opportunity to alleviate this pressure by hiring a qualified tutor to guide their students to academic excellence. The key benefit of this, is that all sessions can take place in the comfort of their own homes. 
+
+Currently, online sessions are strongly recommended for safety reasons. It is without a doubt a growing market thanks to the advancement of technology to this present day. The aim of the site is to connect students to tutors. The online sessions will take place via the video conferencing application, "Zoom". The times and dates of the sessions can be settled in advance by email or text between both the student and the tutor.  This provides flexibility for both parties as lives adjust to the new normal. 
+
 - [1. User Experience - UX](#1-user-experience---ux)
   * [1.1. User Stories](#11-user-stories)
   * [1.2. Structure and Skeleton](#12-structure-and-skeleton)
@@ -24,17 +35,6 @@
   * [6.3. Acknowledgements](#63-acknowledgements)
 
 ***
-
-<!-- One or two paragraphs providing an overview of your project. -->
-
-<!-- Essentially, this part is your sales pitch. -->
-**Welcome to [TutorLink](https://jerhabor.github.io/tutorlink/index.html)!**
-
-This website was created for parents & guardians who are in search of a private tutor for their children, as well as students themselves who are well-versed in using technological devices to access and use this site to book a tutor. The site also promotes an opportunity for aspiring tutors to join and share their wealth of knowledge to those in need.
-
-Following the news of the COVID-19 pandemic, there has since been a strain on family members having to perform home-schooling duties for those still in school. TutorLink offers users the opportunity to alleviate this pressure by hiring a qualified tutor to guide their students to academic excellence. The key benefit of this, is that all sessions can take place in the comfort of their own homes. 
-
-Currently, online sessions are strongly recommended for safety reasons. It is without a doubt a growing market thanks to the advancement of technology to this present day. The aim of the site is to connect students to tutors. The online sessions will take place via the video conferencing application, "Zoom". The times and dates of the sessions can be settled in advance by email or text between both the student and the tutor.  This provides flexibility for both parties as lives adjust to the new normal. 
 
 ## 1. User Experience - UX
 <!-- Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things. -->
@@ -85,7 +85,7 @@ TutorLink comprises of four pages, namely:
 
 ### 2.1. General Features
 
-**2.1.1. Navigation bar**  
+#### 2.1.1. Navigation bar  
 The passion red colour theme with a contrasting white font, gives a warm welcoming feel to the site as users visit. A good first impression always counts. The active page is in bold and hover effects are applied to the non-active menu items. The **_Sign Up_** button back a gold background so that it stands out to users. I also used the following Bootstrap class to make the header stick on scroll, to a length equivalent to the height of the viewing device's screen:
 ~~~
 <nav class="sticky-top">
@@ -253,7 +253,7 @@ These features were disregarded in the scope for this version of the site. The m
 
 > As a GCSE student, I would like the website to be easy to navigate so that I can see what it offers as quickly as possible.
 
-Achieved in features 2.1.1, 2.1.7, 2.2.7
+Achieved in features [2.1.1](####211-Navigation-bar), 2.1.7, 2.2.7
 
 > As a tutor, I would love to see testimonials from people who have used been taught by us as this will help me in promoting it to other people.
 
@@ -392,6 +392,6 @@ The photos used in this site were obtained from:
 
 <!-- - I received inspiration for this project from X -->
 - My mother Mercy - for coming up with the name TutorLink.
-- My mentor Caleb - for his guidance from conception to deployment.
+- My mentor [Caleb](https://github.com/calebmbakwe) - for his guidance from conception to deployment.
 - My family - for testing the site and providing constructive feedback.
 - My Slack community - for the encouragement and general guidance from day one.
