@@ -252,7 +252,7 @@ These features were disregarded in the scope for this version of the site. The m
 
 > As a GCSE student, I would like the website to be easy to navigate so that I can see what it offers as quickly as possible.
 
-Achieved in features [2.1.1](####211-Navigation-bar), 2.1.7, 2.2.7
+Achieved in features [2.1.1](####211-navigation-bar), 2.1.7, 2.2.7
 
 > As a tutor, I would love to see testimonials from people who have used been taught by us as this will help me in promoting it to other people.
 
