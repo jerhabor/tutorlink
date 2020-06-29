@@ -51,25 +51,25 @@ The secondary target audience are aspiring tutors.
 As part of the _Stategy_ stage in the five planes of UX, I deemed it necessary to undertake a strategic research process. This involved asking several people what they would expect from this website and tying in these ideas to realise the project goals of TutorLink. The target audience came with the following suggestions:
 
 **User Story 1:**
-> As a GCSE student, I would like the website to be easy to navigate so that I can see what it offers as quickly as possible.
+> "As a GCSE student, I would like the website to be easy to navigate so that I can see what it offers as quickly as possible."
 
 **User Story 2:**
-> As a tutor, I would love to see testimonials from people who have been taught by TutorLink as this will help me in promoting it to other people.
+> "As a tutor, I would love to see testimonials from people who have been taught by TutorLink as this will help me in promoting it to other people."
 
 **User Story 3:**
-> As a parent of both KS2 and 11+ students, I want to be able to sign up easily so that once I decide to do so, it is quickly over and done with.
+> "As a parent of both KS2 and 11+ students, I want to be able to sign up easily so that once I decide to do so, it is quickly over and done with."
 
 **User Story 4:**
-> As an A-Level student, there should be the option to choose between face-to-face and virtual tutoring.
+> "As an A-Level student, there should be the option to choose between face-to-face and virtual tutoring."
 
 **User Story 5:**
-> As a parent of an 11+ student, I want your site to convince and reassure me in numerous ways why I should sign up.
+> "As a parent of an 11+ student, I want your site to convince and reassure me in numerous ways why I should sign up."
 
 **User Story 6:**
-> As an A-Level student, I would like to see the full list of tutors so that I can familiarise myself with my chosen tutor's background beforehand.
+> "As an A-Level student, I would like to see the full list of tutors so that I can familiarise myself with my chosen tutor's background beforehand."
 
 **User Story 7:**
-> As a GCSE student, I would like to see subjects linked to any recommended revision material so that I can obtain them prior to the first session.
+> "As a GCSE student, I would like to see subjects linked to any recommended revision material so that I can obtain them prior to the first session.
 
 These user requirements were traded off and aligned with the stategies of TutorLink in order to establish the project scope. This was predominantly a brainstorming activity to propose and develop innovative solutions. 
 
@@ -290,7 +290,7 @@ After submission, the same display box as in [4.1.2.](#412-sign-up-to-book-a-tut
 ### 4.2. Achievement of User Stories
 
 **User Story 1:**
-> As a GCSE student, I would like the website to be easy to navigate so that I can see what it offers as quickly as possible.
+> "As a GCSE student, I would like the website to be easy to navigate so that I can see what it offers as quickly as possible."
 
 Features: [2.1.1](#211-navigation-bar), [2.2.7](#227-two-column-site-navigation-section)
 - Navigation bar: 
@@ -300,7 +300,7 @@ Features: [2.1.1](#211-navigation-bar), [2.2.7](#227-two-column-site-navigation-
 - [Home page two-column section](assets/testing/user-stories/two-column-section-home.jpg)
 
 **User Story 2:**
-> As a tutor, I would love to see testimonials from people who have been taught by TutorLink as this will help me in promoting it to other people.
+> "As a tutor, I would love to see testimonials from people who have been taught by TutorLink as this will help me in promoting it to other people."
 
 Feature: [2.1.6](#216-testimonials)
 - [`min-width: 992px`](assets/testing/user-stories/testimonials-laptop.JPG)
@@ -308,7 +308,7 @@ Feature: [2.1.6](#216-testimonials)
 - [`max-width: 767px`](assets/testing/user-stories/testimonials-mobile.JPG)  
 
 **User Story 3:**
-> As a parent of both KS2 and 11+ students, I want to be able to sign up easily so that once I decide to do so, it is quickly over and done with.
+> "As a parent of both KS2 and 11+ students, I want to be able to sign up easily so that once I decide to do so, it is quickly over and done with."
 
 Features: [2.1.1](#211-navigation-bar), [2.1.8](#218-footer), [2.2.6](#226-jumbotron), [2.4.1](#241-top-subjects), [2.5.2](#252-contact-body)  
 Sign up buttons are located in several places on the site for ease:
@@ -319,7 +319,7 @@ Sign up buttons are located in several places on the site for ease:
 - [Contact Page](assets/testing/user-stories/contact-mobile.JPG)  
 
 **User Story 4:**
-> As an A-Level student, there should be the option to choose between face-to-face and virtual tutoring.
+> "As an A-Level student, there should be the option to choose between face-to-face and virtual tutoring.
 
 Feature: [2.4.2](#242--what-we-offer--section)
 
@@ -327,7 +327,7 @@ The introductory paragraph and table beneath the page header on the **Subjects**
 - I did not add this choice of option to the modal form to give flexibility between the student and the tutor when switching from face-to-face to online and vice versa. A great example is the COVID-19 pandemic where only online sessions were permitted.  
 
 **User Story 5:**
-> As a parent of an 11+ student, I want your site to convince and reassure me in numerous ways why I should sign up.
+> "As a parent of an 11+ student, I want your site to convince and reassure me in numerous ways why I should sign up."
 
 Features: [2.1.6](#216-testimonials), [2.2.3](#223-mission-statements), [2.2.4](#224-selling-point), [2.2.5](#225-statistics)
 The Home page offers different means of persuading the user to sign up namely:
@@ -336,20 +336,32 @@ The Home page offers different means of persuading the user to sign up namely:
 - [Statistics](assets/testing/user-stories/statistics.JPG)  
 
 **User Story 6:**
-> As an A-Level student, I would like to see the full list of tutors so that I can familiarise myself with my chosen tutor's background beforehand.
+> "As an A-Level student, I would like to see the full list of tutors so that I can familiarise myself with my chosen tutor's background beforehand."
 
 Feature: [2.3.2](#232-mini-profiles)
 
 The **Tutors** page is dedicated to a [full list of Tutors](assets/testing/browsers/tutors-win10-chrome.png)  
 
 **User Story 7:**
-> As a GCSE student, I would like to see subjects linked to any recommended revision material so that I can obtain them prior to the first session.
+> "As a GCSE student, I would like to see subjects linked to any recommended revision material so that I can obtain them prior to the first session."
 
 Feature: [2.4.4](#244-subjects)
 
 - Can be accessed by clicking on **Subjects** in Navigation bar
 - Click on the subject group to be directed to the required section of the page to choose subject - alternatively the user can scroll straight to the subject.
 - Click the card to open up a link in a new browser tab. Click [here](assets/testing/user-stories/recommended-revision-material.gif) for an illustration.
+
+#### User Feedback
+The TutorLink website has been tested with my family, mentor and friends. The following words were given:
+> "This site is so clear and easy to navigate!"
+
+> "I love the choice of colours and fonts!"
+
+> "This website has a professional touch to it!"
+
+> "All pages are responsive and looks great on both my mobile phone and laptop."
+
+> "The Tutors and Subjects pages are very creative!"
 
 ### 4.3. Code Validation
 **HMTL Code Validation**  
