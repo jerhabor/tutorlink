@@ -489,6 +489,8 @@ Click *"Open Browser"* and a new tab will run the code from the IDE locally.
 - Go to TutorLink [GitHub repository](https://github.com/jerhabor/tutorlink)
 - Click on the green _"Clone"_ button and a dropdown will appear. You will see:  
 <img src="assets/images/clone-repo.JPG" alt=""/>  
+
+You can choose to:
 - Copy link to clipboard and paste in the browser address bar.  
 - Alternatively, click _"Open in Desktop"_ to use GitHub desktop.
 
