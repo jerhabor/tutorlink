@@ -496,6 +496,8 @@ You can choose to:
 
 ## 6. Credits
 
+**Software Developer: Jess Erhabor**
+
 ### 6.1. Content
 - My mentor, Caleb, provided me with a short JavaScript HTML DOM manipulation. The following code is found on **line 57 in index.html, tutors.html and subjects.html** as well as **line 56 in contact.html**: 
     ~~~
