@@ -1,14 +1,17 @@
-# [TutorLink](https://jerhabor.github.io/tutorlink/index.html) ![Logo](assets/images/logo.png "TutorLink Logo")
+<img src="assets/images/logo.png" alt="" align="right" width="115" height="auto"/>
+ 
+# [TutorLink](https://jerhabor.github.io/tutorlink/index.html) 
 <!-- One or two paragraphs providing an overview of your project. -->
 
 <!-- Essentially, this part is your sales pitch. -->
-
 
 This website was created for parents & guardians who are in search of a private tutor for their children, as well as students themselves who are well-versed in using technological devices to access and use this site to book a tutor. The site also promotes an opportunity for aspiring tutors to join and share their wealth of knowledge to those in need.
 
 Following the news of the COVID-19 pandemic, there has since been a strain on family members having to perform home-schooling duties for those still in school. TutorLink offers users the opportunity to alleviate this pressure by hiring a qualified tutor to guide their students to academic excellence. The key benefit of this, is that all sessions can take place in the comfort of their own homes. 
 
 Currently, online sessions are strongly recommended for safety reasons. It is without a doubt a growing market thanks to the advancement of technology to this present day. The aim of the site is to connect students to tutors. The online sessions will take place via the video conferencing application, "Zoom". The times and dates of the sessions can be settled in advance by email or text between both the student and the tutor.  This provides flexibility for both parties as lives adjust to the new normal. 
+___
+## Table of Contents
 
 - [1. User Experience - UX](#1-user-experience---ux)
   * [1.1. User Stories](#11-user-stories)
@@ -232,52 +235,131 @@ These features were disregarded in the scope for this version of the site. The m
 
 ## 4. Testing
 
-### 4.1. How to Use Features on TutorLink
-**4.1.1. Navigation bar**  
+### 4.1. Testing Features
+#### 4.1.1. Navigation bar  
+- For screen sizes with widths smaller than 840px, a hamburger icon appears on the right.
+- The hamburger icon toggles the collapsible element with the menu items when clicked.
+- On mouse `hover` over each of the menu items (apart from the **Sign Up** button), they turn to bold for as long as the cursor stays on it.
+- On mouse `hover` over the **Sign Up** button, the button scales up in size by 10%, the font colour turns white and the `background-color` turns grey due to Bootstrap's `class="btn btn-outline-secondary"`. The style.css sets the `transition` to 0.5s for smooth `hover` on and off:
+    ~~~
+    #navbarNav li button:hover {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    background-color: #808080;
+    border-color: #000;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    }   
+    ~~~
+- Each link takes the user to the required page.
+- The TutorLink logo on the top left when clicked, takes the user back to the home page.
+- The Navigation bar is sticky for the length of the device's screen height.
+- All navigation items function as intended.
 
-**4.1.2. Sign Up to Book a Tutor**  
+#### 4.1.2. Sign Up to Book a Tutor 
+The pop-up modal loads up correctly after clicking: 
+- The **Sign Up** button on the navigation bar.
+- The **Sign Up Now** button in the footer, Home page Jumbotron and Subjects page Top Subjects button.
+- The **Sign Up Now** button under **Book a Tutor** on Contact page.
 
-**4.1.3. Apply to Become a Tutor**  
+An error message is displayed if:
+- The user tries to submit an empty form.
+- [Not all input boxes have been filled in](assets/testing/user-stories/modal-error.JPG).
+- An [invalid email address](assets/testing/user-stories/modal-error2.JPG) is given.
 
-**4.1.4. Access TutorLink's Social Links**  
+After submission, a display box appears with the message: _"Thank you, we have received your request. We will be in touch with you within 24 hours."_
 
-**4.1.5. View All Tutors**  
+#### 4.1.3. Apply to Become a Tutor  
+On the Contact page underneath **Become a Tutor**, there are two parts to the form. 
+- _"No file chosen"_ under **Upload CV** is replaced by the file name when the corresponding file has been uploaded.
+The form cannot be submitted until: 
+- A file has been chosen.
+- A covering letter has been typed in the text box.
 
-**4.1.6. View All Available Subjects**  
+After submission, the same display box as in [4.1.2.](####412-sign-up-to-book-a-tutor) appears with the message: _"Thank you, we have received your request. We will be in touch with you within 24 hours."_
 
-**4.1.7. View Recommended Revision Material**  
+#### 4.1.4. Access TutorLink's Social Links  
+- Social Links are located in the footer.
+- On hover, the icon's `color` and `background-color` switch colours.
+- For educational purposes, the socials icons are linked to the corresponding home pages (e.g. facebook icon loads facebook page when clicked).
+- All links open up in a new tab after including the attribute `target="_blank"` in the anchor tags.
+
+#### 4.1.5. "Why Do You Need A Tutor" YouTube Video  
+- The iframe is responsive and displays accordingly on all screen sizes.
+- The embedded video does not play automatically but allows the user to control the play button.
+- All YouTube features are now enabled for the user to control.
+- The user can click the video title to be directed to the YouTube video link in a new tab.
+
+#### 4.1.6. Testimonials
+- This section is responsive and displays accordingly on all screen sizes.
+- The larger the screen size, the more whitespace to the left and right of the section. 
+- For a larger screen size, this is to help the user read the text more easily rather than having to pan across the width.
+- When the cursor hovers over the carousel, it stops moving automatically.
+
+#### 4.1.7. View Recommended Revision Material
+- When the cursor hovers over each subject, a black border appears over the item to confirm to the user of their selection.
+- All links open up in a new tab after including the attribute `target="_blank"` in the anchor tags.  
 
 
 ### 4.2. Achievement of User Stories
 
+**User 1:**
 > As a GCSE student, I would like the website to be easy to navigate so that I can see what it offers as quickly as possible.
 
-Achieved in features [2.1.1](####211-Navigation-bar), 2.1.7, 2.2.7
+Features: [2.1.1](####211-navigation-bar), [2.2.7](####227-two--column-site-navigation-section)
+- Navigation bar: 
+    - [`min-width: 840px`](assets/testing/user-stories/navbar-desktop.JPG)
+    - [`max-width: 839px`](assets/testing/user-stories/navbar-mobile.jpg)
+    - [`max-width: 839px`](assets/testing/user-stories/navbar-mobile-open.jpg) (toggle open)
+- [Home page two-column section](assets/testing/user-stories/two-column-section-home.jpg)
 
 > As a tutor, I would love to see testimonials from people who have used been taught by us as this will help me in promoting it to other people.
 
-Achieved in feature 2.1.6
+Feature: [2.1.6](####-216-testimonials)
+- [`min-width: 992px`](assets/testing/user-stories/testimonials-laptop.JPG)
+- [`min-width: 768px and max-width: 991px`](/assets/testing/user-stories/testimonials-ipad.JPG)
+- [`max-width: 767px`](assets/testing/user-stories/testimonials-mobile.JPG)
 
 > As a parent of both KS2 and 11+ students, I want to be able to sign up easily so that once I decide to do so, it is quickly over and done with.
 
-Achieved in features 2.1.1, 2.1.8, 2.2.6, 2.4.1, 2.5.2
+Features: 2.1.1, 2.1.8, 2.2.6, 2.4.1, 2.5.2
+Sign up buttons are located in several places on the site for ease:
+- [Navigation bar](assets/testing/user-stories/navbar-desktop.JPG)
+- [Jumbotron](assets/testing/user-stories/jumbotron-mobile.JPG)
+- [Footer](assets/testing/user-stories/footer-mobile.JPG)
+- [Subjects Page](assets/testing/user-stories/top-subjects-open.JPG)
+- [Contact Page](assets/testing/user-stories/contact-mobile.JPG)
 
 > As an A-Level student, there should be the option to choose between face-to-face and virtual tutoring.
 
-Achieved in feature 2.4.2 
+Feature: [2.4.2](assets/testing/user-stories/subjects-intro-chrome.jpg) 
 (I did not add the option to the modal to allow discussion for flexibility in switching from face-to-face to online and vice versa. A great example is the COVI19 pandemic when only online sessions were permitted.)
 
 > As a parent of an 11+ student, I want your site to convince and reassure me in numerous ways why I should sign up.
 
-Achieved in features 2.1.6, 2.2.3, 2.2.4, 2.2.5
-
+Features: [2.1.6](####-216-testimonials), [2.2.3](####223-mission-statements), [2.2.4](####224-selling-point), [2.2.5](####225-statistics)
+The Home page offers different means of persuading the user to sign up namely:
+- [Mission Statements](https://github.com/jerhabor/Milestone-Project-1/blob/df6eea83e939a84c8c8530a102aae0992e976182/assets/testing/user-stories/mission-statements.JPG)
+- ["Why Do You Need A Tutor" iframe YouTube video](assets/testing/user-stories/selling-point.JPG)
+- [Statistics](assets/testing/user-stories/statistics.JPG)
+  
 > As an A-Level student, I would like to see the full list of tutors so that I can familiarise myself with my chosen tutor's background beforehand.
 
-Achieved in feature 2.3.2
+Feature: [2.3.2](assets/testing/browsers/tutors-win10-chrome.png)
 
 > As a GCSE student, Link subjects to any recommended revision material so that students can obtain them prior to the first session.
 
-Achieved in feature 2.4.4
+Feature: [2.4.4](####244-subjects)
+
+- Can be accessed by clicking on **Subjects** in Navigation bar
+- Click on the subject group to be directed to the required section of the page to choose subject - alternatively the user can scroll straight to the subject.
+- Click the card to open up a link in a new browser tab. Click [here](assets/testing/user-stories/recommended-revision-material.gif) for an illustration.
 
 ### 4.3. Code Validation
 **HMTL Code Validation**  
@@ -321,6 +403,37 @@ Key: &#x2714; = Displays as intended
 | Sony Bravia  Television |   55-inch diagonal (4K)   | &#x2714; | &#x2714; | &#x2714; | &#x2714; |
 
  For most of the project development, Chrome's DevTools were used. Upon completion, [BrowserStack](https://www.browserstack.com/) was used to test simulated user interaction with TutorLink on different devices. Screen recordings of these were made using [Apowersoft](https://www.apowersoft.com/free-online-screen-recorder?__c=1).
+
+ ### 4.6. Bugs and Problems
+
+All browsers, apart from Internet Explorer, displayed all aspects of the website as intended. 
+
+Internet Explorer does not support filters with [evidence from caniuse.com](assets/testing/browsers/caniuse-filter.JPG). This implies an innovative approach to reduce the `brightness` of the page headers. 
+
+Using the Home page carousel as an example, I had to alter `.carousel-caption` and assign a black `background-color` and opacity of 0.7. As `position: absolute;` this overlays the `.carousel-item` with `position: relative;`.
+~~~
+.carousel-item {
+    width: 100%;
+    max-height: 470px;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    background: rgba(0,0,0,0.7);
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+~~~
+
+
 <!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals. -->
 
 <!-- Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them. -->
@@ -340,6 +453,27 @@ Key: &#x2714; = Displays as intended
 <!-- If this section grows too long, you may want to split it off into a separate file and link to it from here. -->
 
 ## 5. Deployment
+
+TutorLink is deployed to GitHub Pages using its master branch; the only branch used.
+
+To deploy:
+- Go to TutorLink [GitHub repository](https://github.com/jerhabor/tutorlink)
+- Click on Settings (above the green _"Clone"_ button)
+- Scroll down to **GitHub Pages**
+- Under source, select the `master` branch
+- The page will automatically refresh and the following will be seen:
+
+<img src="assets/images/github-pages-deploy.JPG" alt=""/>
+
+In the event of making changes to code externally (i.e. not in an IDE workspace such as GitPod), commit changes so that you can use `git pull` in the IDE.
+
+When working in GitPod IDE, the process to push to the repository is as follows:
+~~~
+$ git status
+$ git add (insert file name) OR $ git add .
+$ git commit -m "(mention here why changes were made to this version)"
+$ git push
+~~~
 
 <!-- This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku). -->
 
@@ -383,7 +517,7 @@ Key: &#x2714; = Displays as intended
 
 ### 6.2. Media
 <!-- - The photos used in this site were obtained from ... -->
-The photos used in this site were obtained from:
+The photos used in this site are for educational purposes only and were obtained from:
 * [Pexels](https://www.pexels.com/)
 * [Google Images](https://www.google.com/imghp?hl=en)
 
