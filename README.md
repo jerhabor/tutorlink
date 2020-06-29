@@ -312,12 +312,16 @@ After submission, the same display box as in [4.1.2.](####412-sign-up-to-book-a-
 **User 1:**
 > As a GCSE student, I would like the website to be easy to navigate so that I can see what it offers as quickly as possible.
 
+<<<<<<< HEAD
 Features: [2.1.1](####211-navigation-bar), [2.2.7](####227-two--column-site-navigation-section)
 - Navigation bar: 
     - [`min-width: 840px`](assets/testing/user-stories/navbar-desktop.JPG)
     - [`max-width: 839px`](assets/testing/user-stories/navbar-mobile.jpg)
     - [`max-width: 839px`](assets/testing/user-stories/navbar-mobile-open.jpg) (toggle open)
 - [Home page two-column section](assets/testing/user-stories/two-column-section-home.jpg)
+=======
+Achieved in features [2.1.1](####211-navigation-bar), 2.1.7, 2.2.7
+>>>>>>> cd1b3bdbeaae524bcaa5ff15827565aff7b82e50
 
 > As a tutor, I would love to see testimonials from people who have used been taught by us as this will help me in promoting it to other people.
 
