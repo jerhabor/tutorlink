@@ -376,11 +376,12 @@ The stylesheet, [style.css](assets/testing/validation/css.JPG), passed with no e
 
 ### 4.4. Test on Different Browsers
 
-Key: &#x2714; = Functions well
+Key: &#x2714; = Functions well  
+(Click on the ticks in the table below to view screenshots)  
 
 |      Browser      | Version |   Home   |   Tutors  | Subjects |  Contact |                         Notes                         |
 |:-----------------:|:-------:|:--------:|:---------:|:--------:|:--------:|:-----------------------------------------------------:|
-|       Chrome      |    80   | [&#x2714;](assets/testing/browsers/home-win10-chrome.png) |  [&#x2714;](assets/testing/browsers/tutors-win10-chrome.png) | [&#x2714;](assets/testing/browsers/subjects-win10-chrome.png) | [&#x2714;](assets/testing/browsers/home-win10-chrome.png) |                                                       |
+|       Chrome      |    80   | [&#x2714;](assets/testing/browsers/home-win10-chrome.png) |  [&#x2714;](assets/testing/browsers/tutors-win10-chrome.png) | [&#x2714;](assets/testing/browsers/subjects-win10-chrome.png) | [&#x2714;](assets/testing/browsers/contact-win10-chrome.png) |                                                       |
 |      Firefox      |    74   | [&#x2714;](assets/testing/browsers/home-win10-firefox.png) |  [&#x2714;](assets/testing/browsers/tutors-mac-os-firefox.png) | [&#x2714;](assets/testing/browsers/subjects-win10-firefox.png) | [&#x2714;](assets/testing/browsers/contact-mac-os-chrome.png) |                                                       |
 |       Safari      |    13   | [&#x2714;](assets/testing/browsers/home-mac-os-safari.png) |  [&#x2714;](assets/testing/browsers/tutors-mac-os-safari.png) | [&#x2714;](assets/testing/browsers/subjects-mac-os-safari.png) | [&#x2714;](assets/testing/browsers/contact-mac-os-safari.png) |                                                       |
 | Internet Explorer |    11   | [&#x2714;](assets/testing/browsers/home-win10-ie.png) | [&#x2714;](assets/testing/browsers/tutors-win10-ie.png)* | [&#x2714;](assets/testing/browsers/subjects-win10-ie.png) | [&#x2714;](assets/testing/browsers/contact-win10-ie.png) | *The css __filter__ property is not supported&#x00B9; |
