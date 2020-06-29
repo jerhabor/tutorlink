@@ -1,4 +1,4 @@
-<img src="assets/images/logo.png" alt="" align="right" width="115" height="auto"/>
+<img src="assets/images/logo.png" alt="" align="left" width="60" height="auto"/>
  
 # [TutorLink](https://jerhabor.github.io/tutorlink/index.html) 
 <!-- One or two paragraphs providing an overview of your project. -->
