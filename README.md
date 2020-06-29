@@ -450,7 +450,8 @@ All of these images have been compressed to as much as its clear quality remains
 
 ## 5. Deployment
 
-TutorLink is deployed to GitHub Pages using its `master` branch; the only available branch at the moment.
+TutorLink is deployed to GitHub Pages using its `master` branch; the only available branch at the moment.  
+The deployed link is: [https://jerhabor.github.io/tutorlink](https://jerhabor.github.io/tutorlink/).
 
 ### To deploy:
 - Go to TutorLink [GitHub repository](https://github.com/jerhabor/tutorlink)
