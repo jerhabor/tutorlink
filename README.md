@@ -472,25 +472,24 @@ In the IDE terminal, type:
 $ python3 -m http.server
 ~~~
 
-The following pop-up box will appear:
+The following pop-up box will appear:  
 <img src="assets/images/run-local.JPG" alt="Message: A service is available on port 8000"/>  
 
-Click *"Make Public"* so that it is viewable on other devices with the browser link. The following box will now appear:
+Click *"Make Public"* so that it is viewable on other devices with the browser link. The following box will now appear:  
 <img src="assets/images/run-local2.JPG" alt="Message: A service is available on port 8000"/>
 
-Click *"Open Browser"* and a new tab will run the code from the IDE locally.
+Click *"Open Browser"* and a new tab will run the code from the IDE locally.  
 <img src="assets/images/run-local-browser.JPG" alt=""/>
 
 **Key Notes:**
-* You must save changes in your documents in order to see the reflected product when running locally. 
+* You must save changes in your documents in order to see the reflected product when running locally.  
 * Try clearing the browser cache if changes to code do not seem to be running when saved.
 
 ### Clone Repository
 - Go to TutorLink [GitHub repository](https://github.com/jerhabor/tutorlink)
-- Click on the green _"Clone"_ button and a dropdown will appear.
-You will see:
-<img src="assets/images/clone-repo.JPG" alt=""/>
-- Copy link to clipboard and paste in the browser address bar.
+- Click on the green _"Clone"_ button and a dropdown will appear. You will see:  
+<img src="assets/images/clone-repo.JPG" alt=""/>  
+- Copy link to clipboard and paste in the browser address bar.  
 - Alternatively, click _"Open in Desktop"_ to use GitHub desktop.
 
 ## 6. Credits
