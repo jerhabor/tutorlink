@@ -384,7 +384,15 @@
                 </div>
                 <div class="row text-center padding">
                     <div class="col-12">
-                        <p>&copy; Tutorlink 2020</p>
+                        <p>&copy; Tutorlink 
+                            <span id="currentYear"></span>
+                            <script>
+                                document.addEventListener('DOMContentLoaded', function() {
+                                 var currentYear = new Date().getFullYear();
+                                 document.getElementById('currentYear').textContent = currentYear;
+                                });
+                            </script>
+                        </p>
                     </div>
                 </div>
             </div>
